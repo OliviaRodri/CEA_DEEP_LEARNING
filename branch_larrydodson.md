@@ -59,9 +59,9 @@ UTMCC DataViz Module 20 Project
   
    * Reason why this topic was selected: 
   
-   * Description of the source of data: from kaggle, Food access research data. 
+   * Description of the source data: from kaggle, Food access research data. 
   
-   * Questions expected to answer with the data: 
+   * Questions hoping to answer with the data: 
     1. a
     2. b
     3. c
@@ -72,9 +72,9 @@ UTMCC DataViz Module 20 Project
    
    ### Deliverable 2: GitHub
    
-   * READ.me established
+   * READ.me established 
    * Description of the communication protocols 
-   * Individual Branches established (and each team member with min of four commits) 
+   * Individual Branches established, and each team member with min of four commits 
    
    
    
@@ -83,7 +83,7 @@ UTMCC DataViz Module 20 Project
    
    ### Deliverable 3: Machine Learning Model
    
-   * present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
+   * Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
       - Takes in data in from the provisional database
       - Outputs labels for input data
 
@@ -93,7 +93,7 @@ UTMCC DataViz Module 20 Project
    
    ### Deliverable 4: Database
    
-   * present a provisional database that stands in for the final database and accomplishes the following:
+   * Present a provisional database that stands in for the final database and accomplishes the following:
       - Sample data that mimics the expected final database structure or schema
       - Draft machine learning module is connected to the provisional database 
    
