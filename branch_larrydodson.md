@@ -18,15 +18,16 @@ UTMCC DataViz Module 20 Project
 
 ## Overview 
   
-  In support of . 
+  Abc  
 
    ### Purpose
-   To prepare a new . 
+   To prepare ... .  
   
    The deliverables are: 
-   - Deliverable 1: a
-   - Deliverable 2: b
-   - Deliverable 3: c.
+   - Deliverable 1: Presentation
+   - Deliverable 2: GitHub
+   - Deliverable 3: Machine Learning Model
+   - Deliverable 4, Database
   
    
   
@@ -38,12 +39,12 @@ UTMCC DataViz Module 20 Project
   
 | Team Roles | Stephen | Olivia	| Kinuthia | Larry |
 | :---: | :---: | :---: | :---: | :---: |
-| Segment 1 | Triangle<br>ML Model | Square<br>GitHub Repo | --<br> | Circle<br>SQLite db data |
+| Segment 1 | **Triangle**<br>ML Model | **Square**<br>GitHub Repo | --<br> | **Circle**<br>SQLite db data |
 | Segment 2 |  |  |  |  |
 | Segment 3 |  |  |  |  |
 | Segment 4 |  |  |  |  |
 
-  
+  The **X** role is filled by team consensus: Technology choices used within the Project. 
   
 <br>
 
@@ -51,24 +52,54 @@ UTMCC DataViz Module 20 Project
 
 ## Results
 
-   Below . 
 
-### Deliverable 1: a
+   ### Deliverable 1: Presentation
+   
+   * Selected topic:  Food Deserts in the U.S.
+  
+   * Reason why this topic was selected: 
+  
+   * Description of the source of data: from kaggle, Food access research data. 
+  
+   * Questions expected to answer with the data: 
+    1. a
+    2. b
+    3. c
 
-### Deliverable 2: b 
+  
+   .
+  
+   
+   ### Deliverable 2: GitHub
+   
+   * READ.me established
+   * Description of the communication protocols 
+   * Individual Branches established (and each team member with min of four commits. 
+   
+   
+   
+   . 
+   
+   
+   ### Deliverable 3: Machine Learning Model
+   
+   * present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
+      - Takes in data in from the provisional database
+      - Outputs labels for input data
 
-### Deliverable 3: n 
+   
+   .
+   
+   
+   ### Deliverable 4, Database
+   
+   * present a provisional database that stands in for the final database and accomplishes the following:
+      - Sample data that mimics the expected final database structure or schema
+      - Draft machine learning module is connected to the provisional database 
+   
 
 
-
-
- 
-   | **abc** |
-   | :---: |
-   | ![]() |
-
-
-
+.
 
 <br>
 
@@ -76,8 +107,8 @@ UTMCC DataViz Module 20 Project
 
 # Summary
 
-### Qs 
-  1. abc
+### Abc 
+  1. abcs
 
 
 
