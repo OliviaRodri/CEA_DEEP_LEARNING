@@ -27,7 +27,7 @@ UTMCC DataViz Module 20 Project
    - Deliverable 1: Presentation
    - Deliverable 2: GitHub
    - Deliverable 3: Machine Learning Model
-   - Deliverable 4, Database
+   - Deliverable 4: Database
   
    
   
@@ -74,7 +74,7 @@ UTMCC DataViz Module 20 Project
    
    * READ.me established
    * Description of the communication protocols 
-   * Individual Branches established (and each team member with min of four commits. 
+   * Individual Branches established (and each team member with min of four commits) 
    
    
    
@@ -91,7 +91,7 @@ UTMCC DataViz Module 20 Project
    .
    
    
-   ### Deliverable 4, Database
+   ### Deliverable 4: Database
    
    * present a provisional database that stands in for the final database and accomplishes the following:
       - Sample data that mimics the expected final database structure or schema
