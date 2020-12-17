@@ -18,7 +18,7 @@ UTMCC DataViz Module 20 Project
 
 ## Overview 
   
-  Abc  
+  Abc ... . 
 
    ### Purpose
    To prepare ... .  
@@ -33,7 +33,7 @@ UTMCC DataViz Module 20 Project
   
    ### Resources
   * Data source: food_access_research_atlas.csv, food_access_variable_lookup.csv  sourced from kaggle https://www.kaggle.com/tcrammond/food-access-and-food-deserts
-  * Software: Windows10, Python 3.8.3, Pandas, GitHub, VS Code 1.49.1, SQLAlchemy, SQLite, Tableau, HTML 5, JavaScript, Bootstrap 3.3.7 
+  * Software: Windows10, Python 3.8.3, Pandas, GitHub, VS Code 1.49.1, Scikit-learn, TensorFlow, SQLAlchemy, SQLite, Tableau, HTML 5, JavaScript, Bootstrap 3.3.7 
   * Services: AWS S3 data storage, AWS RDS database hosting.
   
   
