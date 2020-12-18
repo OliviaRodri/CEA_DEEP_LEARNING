@@ -66,7 +66,7 @@ UTMCC DataViz Module 20 Project
   
    * Questions hoping to answer with the data: 
    
-   1. Defining geographic areas that are "Food Deserts" 
+   1. What geographic areas in the Austin, Texas metro area are defined as "Food Deserts"? 
    
    2. abc
    
