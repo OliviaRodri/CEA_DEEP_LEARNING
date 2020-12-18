@@ -1,7 +1,7 @@
 branch for larrydodson
   the below are items as DRAFT write-ups for the main Project READ.me
 
-# CEA_DEEP_LEARNING - Food Deserts in the U.S. 
+# CEA_DEEP_LEARNING - Food Deserts in the Austin, Texas Metro Area 
 UTMCC DataViz Module 20 Project 
 
 ---
@@ -22,6 +22,10 @@ UTMCC DataViz Module 20 Project
 
    ### Purpose
    To prepare ... .  
+   
+   What is a Food Desert?
+  
+  The USDA defines living in a food desert as: Living more than one mile from a supermarket in urban/suburban areas, and more than 10 miles from a supermarket in rural areas.
   
    The deliverables are: 
    - Deliverable 1: Presentation
@@ -61,9 +65,12 @@ UTMCC DataViz Module 20 Project
    * Description of the source data: from kaggle, Food access research data. 
   
    * Questions hoping to answer with the data: 
-    1. a
-    2. b
-    3. c
+   
+   1. Defining geographic areas that are "Food Deserts" 
+   
+   2. abc
+   
+   3. abc
 
   
    .
