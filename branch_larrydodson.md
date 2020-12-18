@@ -25,7 +25,7 @@ UTMCC DataViz Module 20 Project
    
    What is a Food Desert?
   
-  The USDA defines living in a food desert as: Living more than one mile from a supermarket in urban/suburban areas, and more than 10 miles from a supermarket in rural areas.
+  The USDA defines living in a food desert as: Living more than one mile from a supermarket in urban/suburban areas, and more than 10 miles from a supermarket in rural areas. (*Cite this*)
   
    The deliverables are: 
    - Deliverable 1: Presentation
