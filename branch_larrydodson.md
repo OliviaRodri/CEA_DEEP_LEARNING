@@ -39,12 +39,11 @@ UTMCC DataViz Module 20 Project
   
 | Team Roles | Stephen | Olivia	| Kinuthia | Larry |
 | :---: | :---: | :---: | :---: | :---: |
-| Segment 1 | **Triangle**<br>ML Model | **Square**<br>GitHub Repo | --<br> | **Circle**<br>SQLite db data |
+| Segment 1 | **Triangle**<br>ML Model | **Square**<br>GitHub Repo | **X**<br>Tech Choices | **Circle**<br>SQLite db data |
 | Segment 2 |  |  |  |  |
 | Segment 3 |  |  |  |  |
 | Segment 4 |  |  |  |  |
 
-  The **X** role is filled by team consensus: Technology choices used within the Project. 
   
 <br>
 
