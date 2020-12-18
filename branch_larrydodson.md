@@ -18,15 +18,13 @@ UTMCC DataViz Module 20 Project
 
 ## Overview 
   
-  Abc ... . 
+  What is a Food Desert? - The USDA defines living in a food desert as living more than one mile from a supermarket in urban/suburban areas, and more than 10 miles from a supermarket in rural areas. These are areas of limited access to healthy, nutritious and affordable food. Food Deserts are also categorized by population density, the level of access to transportation, and income levels of the populations in these areas. The information that would be available by identifying Food Desert locations can help people mitigate access to helthy, lower cost food for their communities. 
+   
 
    ### Purpose
-   To prepare ... .  
+   To apply machine learning and neural networks, and using the features within the provided dataset, create a binary classifier that is capable of predicting locations that are potentially Food Deserts.  
    
-   What is a Food Desert?
-  
-  The USDA defines living in a food desert as: Living more than one mile from a supermarket in urban/suburban areas, and more than 10 miles from a supermarket in rural areas. (*Cite this*)
-  
+   
    The deliverables are: 
    - Deliverable 1: Presentation
    - Deliverable 2: GitHub
@@ -36,7 +34,7 @@ UTMCC DataViz Module 20 Project
    
   
    ### Resources
-  * Data source: food_access_research_atlas.csv, food_access_variable_lookup.csv  sourced from kaggle https://www.kaggle.com/tcrammond/food-access-and-food-deserts
+  * Data source: food_access_research_atlas.csv, food_access_variable_lookup.csv  sourced via kaggle https://www.kaggle.com/tcrammond/food-access-and-food-deserts from the USDA Economic Research Service, United States Department of Agriculture: https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/ 
   * Software: Windows10, Python 3.8.3, Pandas, GitHub, VS Code 1.49.1, Scikit-learn, TensorFlow, SQLAlchemy, SQLite, Tableau, HTML 5, JavaScript, Bootstrap 3.3.7 
   * Services: AWS S3 data storage, AWS RDS database hosting.
   
@@ -58,11 +56,11 @@ UTMCC DataViz Module 20 Project
 
    ### Deliverable 1: Presentation
    
-   * Selected topic:  Food Deserts in the U.S.
+   * Selected topic:  Food Deserts in the Austin, Texas Metro Area.
   
-   * Reason why this topic was selected: 
+   * Reason why this topic was selected: abc... .
   
-   * Description of the source data: from kaggle, Food access research data. 
+   * Description of the source data: original data is from the USDA Economic Research Service, United States Department of Agriculture, Food access research data. 
   
    * Questions hoping to answer with the data: 
    
@@ -113,10 +111,8 @@ UTMCC DataViz Module 20 Project
 
 # Summary
 
-### Abc 
-  1. abcs
-
-
+### ... 
+  1. ...
 
 
 
