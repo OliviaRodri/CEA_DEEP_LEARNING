@@ -58,27 +58,27 @@ UTMCC DataViz Module 20 Project
    
    * Selected topic:  Food Deserts in the Austin, Texas Metro Area.
   
-   * Reason why this topic was selected: abc... .
+   * Reason why this topic was selected: abc... . SM 
   
-   * Description of the source data: original data is from the USDA Economic Research Service, United States Department of Agriculture, Food access research data. 
+   * Description of the source data: original data is from the USDA Economic Research Service, United States Department of Agriculture, Food access research data. SM
   
-   * Questions hoping to answer with the data: 
+   * Questions hoping to answer with the data:  OR
    
    1. What geographic areas in the Austin, Texas metro area are defined as "Food Deserts"? 
    
-   2. abc
-   
-   3. abc
+   2. abc  
+    
+   3. abc  
 
   
    .
   
    
-   ### Deliverable 2: GitHub
+   ### Deliverable 2: GitHub  
    
-   * READ.me established 
-   * Description of the communication protocols 
-   * Individual Branches established, and each team member with min of four commits 
+   * READ.me established  complete OR
+   * Description of the communication protocols   OR
+   * Individual Branches established, and each team member with min of four commits   Complete OR
    
    
    
@@ -88,8 +88,8 @@ UTMCC DataViz Module 20 Project
    ### Deliverable 3: Machine Learning Model
    
    * Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
-      - Takes in data in from the provisional database
-      - Outputs labels for input data
+      - Takes in data in from the provisional database   LD
+      - Outputs labels for input data   SM 
 
    
    .
@@ -98,8 +98,8 @@ UTMCC DataViz Module 20 Project
    ### Deliverable 4: Database
    
    * Present a provisional database that stands in for the final database and accomplishes the following:
-      - Sample data that mimics the expected final database structure or schema
-      - Draft machine learning module is connected to the provisional database 
+      - Sample data that mimics the expected final database structure or schema   LD
+      - Draft machine learning module is connected to the provisional database    LD
    
 
 
