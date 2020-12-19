@@ -75,7 +75,7 @@ UTMCC DataViz Module 20 Project
    * Description of the communication protocols   
      - Slack (messaging)
      - Zoom (group meetings)
-     - Git (working on your branch and creating pull request 
+     - Git (working on your branch and creating pull requests) 
    * Individual Branches established, and each team member with min of four commits - Complete 
    
    
