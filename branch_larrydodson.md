@@ -99,12 +99,11 @@ UTMCC DataViz Module 20 Project
           Low income and low access tract measured at 1 mile for urban areas and 10 miles for rural areas	
                           
 2. Feature variables =
-    1. lasnaphalf
-          
-    2. lasnapshare
+    1. lasnaphalf 
+    2. lasnaphalfshare 
     3. lahunvhalf
-    4. lahunvshare
-    5. lasnap1
+    4. lahunvhalfshare
+    5. lasnap1 
     6. lasnap1share
     7. lahunv1
     8. lahunv1share
@@ -115,9 +114,7 @@ UTMCC DataViz Module 20 Project
     13. lasnap20
     14. lasnap20share
     15. lahunv20
-    16. lahunv20share
-
-   
+    16. lahunv20share 
    .
    
    
