@@ -1,7 +1,3 @@
-# CEA_DEEP_LEARNING
-branch for larrydodson
-  the below are items as DRAFT write-ups for the main Project READ.me
-
 # CEA_DEEP_LEARNING - Food Deserts in the Austin, Texas Metro Area 
 UTMCC DataViz Module 20 Project 
 
@@ -69,16 +65,17 @@ UTMCC DataViz Module 20 Project
    
    1. What geographic areas in the Austin, Texas metro area are defined as "Food Deserts"? 
    
-   2. abc    
-
-  
+      
    .
   
    
    ### Deliverable 2: GitHub  
    
    * READ.me established - complete 
-   * Description of the communication protocols   OR
+   * Description of the communication protocols   
+     - Slack (messaging)
+     - Zoom (group meetings)
+     - Git (working on your branch and creating pull request 
    * Individual Branches established, and each team member with min of four commits - Complete 
    
    
