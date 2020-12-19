@@ -57,9 +57,9 @@ UTMCC DataViz Module 20 Project
    
    * Selected topic:  Food Deserts in the U.S.
   
-   * Reason why this topic was selected: 
+   * Reason why this topic was selected: Vertical farming and urban farming are becoming more prescient topics as climate change and increased urbanization of population occcurs.  Timely and accurate understanding of what locations can be considered "food deserts" can aid urban planning to preempt possible, or increasing, food scarcity in heavily urbanized locations.  This understanding can assist in increasing life-span, quality of life and resource allocation for future generations.
   
-   * Description of the source data: from kaggle, Food access research data. 
+   * Description of the source data: The data was retrieved from Kaggle (https://www.kaggle.com/tcrammond/food-access-and-food-deserts).  The data comes from the United States Department of Agriculture on census-tract level data on access to supermarkets.
   
    * Questions hoping to answer with the data: 
     1. a
@@ -85,7 +85,33 @@ UTMCC DataViz Module 20 Project
    
    * Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
       - Takes in data in from the provisional database
-      - Outputs labels for input data
+##### Outputs labels for input data
+
+1. Target/Output variable = 
+
+    **LILATracts_1And10**
+
+          Low income and low access tract measured at 1 mile for urban areas and 10 miles for rural areas	
+                          
+2. Feature variables =
+    1. lasnaphalf
+          
+    2. lasnapshare
+    3. lahunvhalf
+    4. lahunvshare
+    5. lasnap1
+    6. lasnap1share
+    7. lahunv1
+    8. lahunv1share
+    9. lasnap10
+    10. lasnap10share
+    11. lahunv10
+    12. lahunv10share
+    13. lasnap20
+    14. lasnap20share
+    15. lahunv20
+    16. lahunv20share
+
 
    
    .
