@@ -89,7 +89,33 @@ UTMCC DataViz Module 20 Project
    
    * Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
       - Takes in data in from the provisional database   LD
-      - Outputs labels for input data   SM 
+
+##### Outputs labels for input data
+
+1. Target/Output variable = 
+
+    **LILATracts_1And10**
+
+          Low income and low access tract measured at 1 mile for urban areas and 10 miles for rural areas	
+                          
+2. Feature variables =
+    1. lasnaphalf
+          
+    2. lasnapshare
+    3. lahunvhalf
+    4. lahunvshare
+    5. lasnap1
+    6. lasnap1share
+    7. lahunv1
+    8. lahunv1share
+    9. lasnap10
+    10. lasnap10share
+    11. lahunv10
+    12. lahunv10share
+    13. lasnap20
+    14. lasnap20share
+    15. lahunv20
+    16. lahunv20share
 
    
    .
