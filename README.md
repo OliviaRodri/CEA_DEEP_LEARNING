@@ -61,7 +61,7 @@ UTMCC DataViz Module 20 Project
   
    * Description of the source data: The data was retrieved from Kaggle (https://www.kaggle.com/tcrammond/food-access-and-food-deserts).  The data comes from the United States Department of Agriculture on census-tract level data on access to supermarkets.
   
-   * Questions hoping to answer with the data:  OR
+   * Questions hoping to answer with the data: 
    
    1. What geographic areas in the Austin, Texas metro area are defined as "Food Deserts"? 
    
