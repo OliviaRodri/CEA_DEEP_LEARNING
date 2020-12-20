@@ -141,30 +141,3 @@ UTMCC DataViz Module 20 Project
    
 
 
-.
-
-<br>
-
----
-
-# Summary
-
-### ... 
- 
-
-
-
-
-.
-
-.end
-
-
-
-
-
-
-
-
-
-
