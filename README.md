@@ -100,7 +100,7 @@ UTMCC DataViz Module 20 Project
 
    | **Feature** | **Description** |
    | :--- | :--- |
-   | 1. `lasnaphalf` | Population count beyond 1/2 mile from supermarket |
+   | 1. `lasnaphalf` | Housing units receiving SNAP benefits count beyond 1/2 mile from supermarket |
    | 2. `lasnaphalfshare`  | Share of tract population that are beyond 1/2 mile from supermarket |
    | 3. `lahunvhalf` | Housing units without vehicle count beyond 1/2 mile from supermarket |
    | 4. `lahunvhalfshare` | Share of tract housing units that are without vehicle and beyond 1/2 mile from supermarket | 
