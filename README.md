@@ -53,6 +53,7 @@ UTMCC DataViz Module 20 Project
    * For working code and python program, please see: `Food_Deserts_Module20.ipynb`
 
 
+### Deliverables 1 - 4: [Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)
    ### Deliverable 1: Presentation
    
    * Selected topic:  Food Deserts in the Austin, Texas Metro Area.

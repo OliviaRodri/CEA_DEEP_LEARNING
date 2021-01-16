@@ -22,6 +22,8 @@ UTMCC DataViz Module 20 Project
    To apply machine learning and neural networks, and using the features within the provided dataset, create a binary classifier that is capable of predicting locations that are potentially Food Deserts.  
    
    
+
+   
    The deliverables are: 
    - Deliverable 1: Presentation
    - Deliverable 2: GitHub
@@ -53,8 +55,8 @@ UTMCC DataViz Module 20 Project
    * For working code and python program, please see: `Food_Deserts_Module20.ipynb`
 
 
-   ### Deliverable 1: Presentation
-   
+   ### Deliverable 1: [Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)
+
    * Selected topic:  Food Deserts in the Austin, Texas Metro Area.
   
    * Reason why this topic was selected: Vertical farming and urban farming are becoming more prescient topics as climate change and increased urbanization of population occcurs.  Timely and accurate understanding of what locations can be considered "food deserts" can aid urban planning to preempt possible, or increasing, food scarcity in heavily urbanized locations.  This understanding can assist in increasing life-span, quality of life and resource allocation for future generations.
