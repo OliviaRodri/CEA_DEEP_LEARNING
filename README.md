@@ -87,17 +87,31 @@ UTMCC DataViz Module 20 Project
    
    * Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
       - Takes in data in from the provisional database - Complete
+  ## Seg II 
+✓ Description of preliminary data
+preprocessing : seperate df / feature variables "Olivia"
+✓ Description of preliminary feature
+engineering and preliminary feature
+selection, including their decisionmaking process "Stephen"
+✓ Description of how data was split
+into training and testing sets: training splitting/stratify "Larry"
+✓ Explanation of model choice,
+including limitations and benefits: "Stephen" 
+ 
 
-##### Outputs labels for input data
+##### Outputs labels for input data Segment I & II
 
-1. Target/Output variable = 
+Seg I Target/Output variable = 
 
   | **Target/Output** | **Description** |
   | :--- | :--- |
   | **`LILATracts_1And10`** | Low income and low access tract measured at 1 mile for urban areas and 10 miles for rural areas |
+
+Seg II 
+"Stephen"
         	
 
-2. Feature variables =
+Seg. I: Feature variables =
 
    | **Feature** | **Description** |
    | :--- | :--- |
@@ -117,7 +131,8 @@ UTMCC DataViz Module 20 Project
    | 14. `lasnap20share` | Share of tract housing units receiving SNAP benefits count beyond 20 miles from supermarket |
    | 15. `lahunv20` | Housing units without vehicle count beyond 20 miles from supermarket |
    | 16. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket | 
-     
+ Seg. II "Olivia"
+
       **ML Model Summary and Accuracy (provisional)** 
       
       ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)
@@ -128,7 +143,7 @@ UTMCC DataViz Module 20 Project
       
 .
      
-   ### Deliverable 4: Database
+   ### Deliverable 4: Database "Larry"
    
    * Present a provisional database that stands in for the final database and accomplishes the following:
       - Sample data that mimics the expected final database structure or schema  - Complete
