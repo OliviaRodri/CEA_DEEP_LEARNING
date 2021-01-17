@@ -217,14 +217,14 @@ Segment I:
 Segment II:
    | **Feature** | **Description** |
    | :--- | :--- |
-   | 2. `lasnaphalfshare`  | Share of tract population that are beyond 1/2 mile from supermarket |
-   | 4. `lahunvhalfshare` | Share of tract housing units that are without vehicle and beyond 1/2 mile from supermarket | 
-   | 6. `lasnap1share` | Share of tract housing units receiving SNAP benefits count beyond 1 mile from supermarket |
-   | 8. `lahunv1share` | Share of tract housing units that are without vehicle and beyond 1 mile from supermarket | 
-   | 10. `lasnap10share` | Share of tract housing units receiving SNAP benefits count beyond 10 miles from supermarket |
-   | 12. `lahunv10share` | Share of tract housing units that are without vehicle and beyond 10 miles from supermarket | 
-   | 14. `lasnap20share` | Share of tract housing units receiving SNAP benefits count beyond 20 miles from supermarket |
-   | 16. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket |
+   | 1. `lasnaphalfshare`  | Share of tract population that are beyond 1/2 mile from supermarket |
+   | 2. `lahunvhalfshare` | Share of tract housing units that are without vehicle and beyond 1/2 mile from supermarket | 
+   | 3. `lasnap1share` | Share of tract housing units receiving SNAP benefits count beyond 1 mile from supermarket |
+   | 4. `lahunv1share` | Share of tract housing units that are without vehicle and beyond 1 mile from supermarket | 
+   | 5. `lasnap10share` | Share of tract housing units receiving SNAP benefits count beyond 10 miles from supermarket |
+   | 6. `lahunv10share` | Share of tract housing units that are without vehicle and beyond 10 miles from supermarket | 
+   | 7. `lasnap20share` | Share of tract housing units receiving SNAP benefits count beyond 20 miles from supermarket |
+   | 8. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket |
 
 
 #
