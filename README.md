@@ -1,5 +1,5 @@
 # CEA_DEEP_LEARNING - Food Deserts in the Austin, Texas Metro Area 
-UTMCC DataViz Module 20 Project 
+UTMCC DataViz Module 20 Team Project
 
 ---
 
@@ -63,37 +63,34 @@ UTMCC DataViz Module 20 Project
 
   ### For working code and python programs, please see: 
 
-
 | **Segment - I** | **Segment - II** | **Segment - III** |
 | :--- | :--- | :--- |
 | `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` |  |
 
-Segment I:
-   * For working code and python program, please see: `Food_Deserts_Module20.ipynb`
 
 
 ### Deliverables 1 - 4: [Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)
+
 
    ### Deliverable 1: Presentation
    
    * Selected topic:  Food Deserts in the Austin, Texas Metro Area.
   
-   * Reason why this topic was selected: Vertical farming and urban farming are becoming more prescient topics as climate change and increased urbanization of population occcurs.  Timely and accurate understanding of what locations can be considered "food deserts" can aid urban planning to preempt possible, or increasing, food scarcity in heavily urbanized locations.  This understanding can assist in increasing life-span, quality of life and resource allocation for future generations.
+   * Reason why this topic was selected: Vertical farming and urban farming are becoming more prescient topics as climate change and increased urbanization of population occcurs. Timely and accurate understanding of what locations can be considered "food deserts" can aid urban planning to preempt possible, or increasing, food scarcity in heavily urbanized locations.  This understanding can assist in increasing life-span, quality of life and resource allocation for future generations.
   
    * Description of the source data: The data was retrieved from Kaggle (https://www.kaggle.com/tcrammond/food-access-and-food-deserts).  The data comes from the United States Department of Agriculture on census-tract level data on access to supermarkets.
   
    * Questions hoping to answer with the data:
      
-     - Segment I:
+     - Segment - I:
 What geographic areas in the Austin, Texas metro area are defined as "Food Deserts"? 
 
-      - Segment II:
+      - Segment - II:
 Using Machine Learning, can levels of income be accurately predicted based upon a census tract being considered a food desert?
 
-      
+
 .
-  
-   
+
    ### Deliverable 2: GitHub  
    
    * READ.me established - complete 
@@ -103,21 +100,21 @@ Using Machine Learning, can levels of income be accurately predicted based upon 
      - Git (working on your branch and creating pull requests) 
    * Individual Branches established, and each team member with min of:  
     
-  Segment I : 4 commits
+  Segment - I : 4 commits each 
 
-  Segment II: 8 commits 
-   
-   
+  Segment - II: 8 total commits each 
+
+
    . 
-   
-   
+
+
    ### Deliverable 3: Machine Learning Model
 
-  Segment I 
+  **Segment - I** 
    * Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
       - Takes in data in from the provisional database
 
-  Segment II
+  **Segment - II**
 
 Preliminary data exploration: 
 - The complete census tract contained close to 150 fields.  Excel was used to visually inspect and recognize that some fields could  be condensed or eliminated. Python was used to programmatically reduce the field list to 22 fields.  This allowed us to choose appropriate features for the Machine Learning.
@@ -144,7 +141,7 @@ Below is a condensed list of the variables within our data.
    | 13. 'lasnapXshare' | Share of tract housing units receiving SNAP benefits count beyond X mile from supermarket |
 
 Preliminary data preprocessing:
-- Reduced dataframe from all of U.S. to 5 counties
+- Reduced dataframe from all of U.S. to 5 countiesfor the Austin Texas Metro Area 
 - Created “Income” column which is based upon “Median Household Income”: <15000 (Impoverished), >15000 (Not Impoverished)
 
 
@@ -158,9 +155,13 @@ selection, and decision making process:
 - Decision made: As a group, we decided “no, vehicle and snap benefits would be a better indicator for the Machine Learning.”
  
 
-How data was split: "Larry"
+How data was split for Training and Testing Sets: 
 
-- into training and testing sets: training splitting/stratify 
+- After the original dataset csv file was imported as the file `food_atlas_df`, it was preprocessed in two paths. One set with the purpose to use for Training the Neural Network Model, and one set of data as the subset for the Austin Metro Area that was to be used for Testing. 
+- The dataframe used for Training was the `food_desertUS_df` set, and incorporates all original 72,864 rows of U.S. Census Tract data, preprocessed with model's X-Features with the generated y-Target as the Output for "Income". 
+- A new dataframe was generated to be the Test data, `food_desert_Austin_df`, and included data only for the Census Tracts within the five Counties for the Austin Metro Area. In comparison, this data consists of 350 rows of data, with similar preprocessing for the same X-Features and y-Target for "Income".
+- To convey the Neural Net Model's Callbacks with Checkpoints and Weights, the Hierarchical Data Format HDF5 as used for saving the weights, and then to load the model for use in the Test of the Austin Metro only data. 
+
 
 Description of the model and its limitations and benefits:
 
@@ -174,23 +175,24 @@ More easily set-up, outputs and analysis are more simple due to confusion matric
 Limitations - large dataset, classifing big data can be a challenge. Imbalanced samples (not enough samples of each classifier) can easily throw off predictions.  
  
 
-##### Outputs labels for input data Segment I & II
+#### Outputs labels for input data Segments I & II
 
-Seg I Target/Output variable = 
+Segment - I Target/Output variable = 
 
   | **Target/Output** | **Description** |
   | :--- | :--- |
   | **`LILATracts_1And10`** | Low income and low access tract measured at 1 mile for urban areas and 10 miles for rural areas |
 
-Seg II Target/Output variable =
+Segment - II Target/Output variable =
 
   | **Target/Output** | **Description** |
   | :--- | :--- |
-  | **`Income`** | A binary variable created from the "Median Family Income" column.  Categories are "Impoverished" if income is below $15,000 and "Not Impoverished" if income is above $15,000 |      	
+  | **`Income`** | A binary variable created from the "Median Family Income" column.  Categories are "Impoverished" if income is below $15,000 and "Not Impoverished" if income is above $15,000 | 
 
-**Feature variables** 
 
-Segment I:
+**Feature variables**
+
+Segment - I:
 
    | **Feature** | **Description** |
    | :--- | :--- |
@@ -214,6 +216,35 @@ Segment I:
 
 **Feature variables** 
 
+<<<<<<< HEAD
+Segment - II:
+
+   | **Feature** | **Description** |
+   | :--- | :--- |
+   | 1. `lapopXshare` | Share of tract population that are beyond X mile from supermarket |
+   | 2. `lalowiXshare` | Share of tract population that are low income individuals beyond X mile from supermarket |
+   | 3. `lakidsXshare` | Share of tract population that are kids beyond X mile from supermarket |
+   | 4. `laseniorsXshare` | Share of tract population that are seniors beyond X mile from supermarket |
+   | 5. `lawhiteXshare` | Share of tract population that are white beyond X mile from supermarket |
+   | 6. `lablackXshare` | Share of tract population that are Black or African American beyond X mile from supermarket |
+   | 7. `laasianXshare` | Share of tract population that are Asian beyond X mile from supermarket |
+   | 8. `lanhopiXshare` | Share of tract population that are Native Hawaiian or Other Pacific Islander beyond X mile from supermarket |
+   | 9. `laaianXshare` | Share of tract population that are American Indian or Alaska Native beyond X mile from supermarket |
+   | 10. `laomultirXshare` | Share of tract population that are Other/Multiple race beyond X mile from supermarket |
+   | 11. `lahispXshare` | Share of tract population that are of Hispanic or Latino ethnicity beyond X mile from supermarket |
+   | 12. `lahunvXshare` | Share of tract housing units that are without vehicle and beyond X mile from supermarket |
+   | 13. `lasnapXshare` | Share of tract housing units receiving SNAP benefits count beyond X mile from supermarket |
+
+
+
+  | **Project<br>Segment** | **Machine Learning Model Summary and Accuracy** |
+  | :--- | :--- |
+  | **Seg - I**<br>(provisional) | ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)<br> ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)<br> |
+  | **Seg - II** | ![NNML_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_summary.png)<br>![NNML_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_accuracy.png) <br> |
+
+<br>
+
+=======
 Segment II:
    | **Feature** | **Description** |
    | :--- | :--- |
@@ -235,6 +266,7 @@ Segment II:
   ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)
           
    
+>>>>>>> origin/main
 .
      
    ### Deliverable 4: Database
@@ -248,19 +280,22 @@ Segment II:
   * stores static data
   * interfaces with the project
   * includes minimum of two tables
-  * includes minimum of one JOIN with db language
+  * includes minimum of one JOIN with database language
   * includes minimum of one connection string 
-  * provide the ERD with relationships
+  * provide the Entity Relationship Diagram, ERD with relationships.
 
       
      | **Project<br>Segment** | **database Status** |
      | :--- | :--- |
-     | Seg - I | moving pandas dataframe data into SQLite db table<br> ![data_to_sqlite.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/data_to_sqlite.png)<br>SQLite db table data to pd dataframe for ML model<br> ![SQLdata_to_newDataFrame.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/SQLdata_to_newDataFrame.png)<br>Machine Learning model dataframe source<br> ![DF_to_MLmodel.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/DF_to_MLmodel.png) |
-     | Seg - II | Using AWS RDS, and pgAdmin as the UI. Eight Tables are established.<br>![pgadmin_aws_sql.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/pgadmin_aws_sql.png) <br>The project interface and connection strings use Python in Colaboratory, running as a Spark Session.<br>![spark_aws_rds_connect.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/spark_aws_rds_connect.png) <br>Two JOIN unions are made, a LEFT JOIN within pgAdmin, and an INNER JOIN using PySpark code in colab.<br>![spark_sql_join.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/spark_sql_join.png) <br>The ERD, showing relationships.<br>![sql_erd.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sql_erd.png) |
-     | Seg - III |  |
-   
+     | **Seg - I** | moving pandas dataframe data into SQLite db table<br> ![data_to_sqlite.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/data_to_sqlite.png)<br>SQLite db table data to pd dataframe for ML model<br> ![SQLdata_to_newDataFrame.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/SQLdata_to_newDataFrame.png)<br>Machine Learning model dataframe source<br> ![DF_to_MLmodel.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/DF_to_MLmodel.png) |
+     |  |  |
+     | **Seg - II** | **Using AWS RDS, and pgAdmin as the User Iinterface. Eight Tables are established.**<br>![pgadmin_aws_sql.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/pgadmin_aws_sql.png)<br>**The project interface and connection strings with Python in Colaboratory, running as a Spark Session.**<br>![spark_aws_rds_connect.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/spark_aws_rds_connect.png) <br>**Two JOIN unions are made, a LEFT JOIN within pgAdmin, and an INNER JOIN using PySpark code in colab.**<br>![spark_sql_join.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/spark_sql_join.png) <br>**The ERD, showing relationships.**<br>![sql_erd.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sql_erd.png) |
+     |  |  |
+     | **Seg - III** | ... |
 
----
+. 
+
+<br>
 
 ### Deliverable 5: Dashboard
 #### Segment - II Requirements:
@@ -294,4 +329,13 @@ Dashboard Interactive Elements:
 
 Example of hover function shown below:
 
+<<<<<<< HEAD
+![hover_func](images/hover_func.PNG)
+
+
+.
+
+---
+=======
 ![hover_func](images/hover_func.png)
+>>>>>>> origin/main
