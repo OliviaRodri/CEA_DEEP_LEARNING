@@ -139,9 +139,15 @@ How data was split: "Larry"
 
 - into training and testing sets: training splitting/stratify 
 
-Description of the model and its limitations and benefits: "Stephen" 
+Description of the model and its limitations and benefits:
 
-- 
+Three models will be used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
+
+**Neural Network (NN)**
+Due to the size of this dataset (more than 72,000 datapoints), NN was included due to the robustness and power of NNs
+
+**Supervised Machines**
+
  
 
 ##### Outputs labels for input data Segment I & II
