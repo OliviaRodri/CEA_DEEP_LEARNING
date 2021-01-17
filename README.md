@@ -152,9 +152,11 @@ Seg I Target/Output variable =
   | :--- | :--- |
   | **`LILATracts_1And10`** | Low income and low access tract measured at 1 mile for urban areas and 10 miles for rural areas |
 
-Seg II Target/Output variable = "Stephen"
+Seg II Target/Output variable =
 
-#        	
+  | **Target/Output** | **Description** |
+  | :--- | :--- |
+  | **`Income`** | A binary variable created from the "Median Family Income" column.  Categories are "Impoverished" if income is below $15,000 and "Not Impoverished" if income is above $15,000 |      	
 
 **Feature variables** 
 
