@@ -14,3 +14,6 @@ SELECT * FROM fooddesert_austracts_income;
 
 SELECT * FROM lilatracts_1and10_aus;
 SELECT * FROM food_austinmfi;
+
+SELECT * FROM fooddesert_austin_censustract;
+SELECT * FROM fooddesert_austin_censusshapes;
