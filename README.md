@@ -143,11 +143,12 @@ Description of the model and its limitations and benefits:
 
 Three models will be used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
 
-**Neural Network (NN)**
-Due to the size of this dataset (more than 72,000 datapoints), NN was included due to the robustness and power of NNs
+**Neural Network (NN)** 
+Due to the size of this dataset (more than 72,000 datapoints), a NN was included due to the robustness and power of NNs. Unfortunately, NNs are code intensive requiring proper set-up compared to other machine learning models.
 
 **Supervised Machines**
-
+More easily set-up, outputs and analysis are more simple due to confusion matrices and F1 score.  The ease of analysis and set-up allows for multiple supervised machines to be produced on the same data, allowing for more robust analysis.
+Limitations - large dataset, classifing big data can be a challenge. Imbalanced samples (not enough samples of each classifier) can easily throw off predictions.  
  
 
 ##### Outputs labels for input data Segment I & II
