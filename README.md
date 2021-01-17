@@ -227,14 +227,6 @@ Segment II:
    | 8. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket |
 
 
-#
-      **ML Model Summary and Accuracy (provisional)** 
-      
-  ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)
-      
-  ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)
-          
-   
 .
      
    ### Deliverable 4: Database
