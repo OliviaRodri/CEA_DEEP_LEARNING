@@ -156,7 +156,9 @@ Seg II Target/Output variable = "Stephen"
 
 #        	
 
-**Feature variables** Segment I =
+**Feature variables** 
+
+Segment I:
 
    | **Feature** | **Description** |
    | :--- | :--- |
@@ -177,7 +179,10 @@ Seg II Target/Output variable = "Stephen"
    | 15. `lahunv20` | Housing units without vehicle count beyond 20 miles from supermarket |
    | 16. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket |
 
-**Feature variables** Segment II =
+
+**Feature variables** 
+
+Segment II:
 
    | **Feature** | **Description** |
    | :--- | :--- |
@@ -198,9 +203,9 @@ Seg II Target/Output variable = "Stephen"
 #
       **ML Model Summary and Accuracy (provisional)** 
       
-      ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)
+  ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)
       
-      ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)
+  ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)
           
    
 .
@@ -262,5 +267,4 @@ Dashboard Interactive Elements:
 
 Example of hover function shown below:
 
-  ![hover_func](Resources/hover_func.PNG)
-
+![hover_func](images/hover_func.PNG)
