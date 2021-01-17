@@ -22,19 +22,21 @@ UTMCC DataViz Module 20 Project
    To apply machine learning and neural networks, and using the features within the provided dataset, create a binary classifier that is capable of predicting locations that are potentially Food Deserts.  
    
    
-   The deliverables are: 
-<<<<<<< HEAD
+   The deliverables are:
+   
+   Segment I
+   * Deliverable 1: Presentation
+   * Deliverable 2: GitHub
+   * Deliverable 3: Machine Learning Model
+   * Deliverable 4: Database
+    
+  Segment II
    - Deliverable 1: Presentation
    - Deliverable 2: GitHub
    - Deliverable 3: Machine Learning Model
    - Deliverable 4: Database
    - Deliverable 5: Dashboard
-=======
-   * Deliverable 1: Presentation
-   * Deliverable 2: GitHub
-   * Deliverable 3: Machine Learning Model
-   * Deliverable 4: Database
->>>>>>> origin/main
+
   
    
   
@@ -58,7 +60,6 @@ UTMCC DataViz Module 20 Project
 --- 
 
 ## Results
-<<<<<<< HEAD
 
   ### For working code and python programs, please see: 
 
@@ -67,10 +68,8 @@ UTMCC DataViz Module 20 Project
 | :--- | :--- | :--- |
 | `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` |  |
 
-=======
 Segment I:
    * For working code and python program, please see: `Food_Deserts_Module20.ipynb`
->>>>>>> origin/main
 
 
 ### Deliverables 1 - 4: [Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)
@@ -83,12 +82,16 @@ Segment I:
   
    * Description of the source data: The data was retrieved from Kaggle (https://www.kaggle.com/tcrammond/food-access-and-food-deserts).  The data comes from the United States Department of Agriculture on census-tract level data on access to supermarkets.
   
-   * Questions hoping to answer with the data: 
-   
-   1. What geographic areas in the Austin, Texas metro area are defined as "Food Deserts"? 
-   
+   * Questions hoping to answer with the data:
+     
+     - Segment I:
+What geographic areas in the Austin, Texas metro area are defined as "Food Deserts"? 
+
+      - Segment II:
+Using Machine Learning, can levels of income be accurately predicted based upon a census tract being considered a food desert?
+
       
-   .
+.
   
    
    ### Deliverable 2: GitHub  
@@ -98,26 +101,47 @@ Segment I:
      - Slack (messaging)
      - Zoom (group meetings)
      - Git (working on your branch and creating pull requests) 
-   * Individual Branches established, and each team member with min of four commits - Complete 
+   * Individual Branches established, and each team member with min of:  
+    
+  Segment I : 4 commits
+
+  Segment II: 8 commits 
    
    
    . 
    
    
    ### Deliverable 3: Machine Learning Model
-   
+
+  Segment I 
    * Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
-      - Takes in data in from the provisional database - Complete
-  ## Seg II 
-✓ Description of preliminary data
-preprocessing : seperate df / feature variables "Olivia"
-✓ Description of preliminary feature
-engineering and preliminary feature
-selection, including their decisionmaking process "Stephen"
-✓ Description of how data was split
-into training and testing sets: training splitting/stratify "Larry"
-✓ Explanation of model choice,
-including limitations and benefits: "Stephen" 
+      - Takes in data in from the provisional database
+
+  Segment II
+
+
+Preliminary data preprocessing:
+- Reduced dataframe from all of U.S. to 5 counties
+- Created “Income” column which is based upon “Median Household Income”: <15000 (Impoverished), >15000 (Not Impoverished)
+
+
+Preliminary feature engineering, preliminary feature
+selection, and decision making process: 
+(!Stephen, if needed, make edits for this section)
+
+- Feature engineering: Created an impoverished column
+- Feature Selection: Distance to supermarkets for housing units without vehicle and housing units receiving SNAP benefits
+- Race and age do not qualify as a predictor for impoverishment. 
+- Decision made: As a group, we decided “no, vehicle and snap benefits would be a better indicator for the Machine Learning.”
+ 
+
+How data was split: "Larry"
+
+- into training and testing sets: training splitting/stratify 
+
+Description of the model and its limitations and benefits: "Stephen" 
+
+- 
  
 
 ##### Outputs labels for input data Segment I & II
@@ -128,11 +152,11 @@ Seg I Target/Output variable =
   | :--- | :--- |
   | **`LILATracts_1And10`** | Low income and low access tract measured at 1 mile for urban areas and 10 miles for rural areas |
 
-Seg II 
-"Stephen"
-        	
+Seg II Target/Output variable = "Stephen"
 
-Seg. I: Feature variables =
+#        	
+
+**Feature variables** Segment I =
 
    | **Feature** | **Description** |
    | :--- | :--- |
@@ -151,17 +175,34 @@ Seg. I: Feature variables =
    | 13. `lasnap20` | Housing units receiving SNAP benefits count beyond 20 miles from supermarket |
    | 14. `lasnap20share` | Share of tract housing units receiving SNAP benefits count beyond 20 miles from supermarket |
    | 15. `lahunv20` | Housing units without vehicle count beyond 20 miles from supermarket |
-   | 16. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket | 
- Seg. II "Olivia"
+   | 16. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket |
 
+**Feature variables** Segment II =
+
+   | **Feature** | **Description** |
+   | :--- | :--- |
+   | 1. 'lapopXshare' | Share of tract population that are beyond X mile from supermarket |
+   | 2. 'lalowiXshare' | Share of tract population that are low income individuals beyond X mile from supermarket |
+   | 3. 'lakidsXshare' | Share of tract population that are kids beyond X mile from supermarket |
+   | 4. 'laseniorsXshare' | Share of tract population that are seniors beyond X mile from supermarket |
+   | 5. 'lawhiteXshare' | Share of tract population that are white beyond X mile from supermarket |
+   | 6. 'lablackXshare' | Share of tract population that are Black or African American beyond X mile from supermarket |
+   | 7. 'laasianXshare' | Share of tract population that are Asian beyond X mile from supermarket |
+   | 8. 'lanhopiXshare' | Share of tract population that are Native Hawaiian or Other Pacific Islander beyond X mile from supermarket |
+   | 9. 'laaianXshare' | Share of tract population that are American Indian or Alaska Native beyond X mile from supermarket |
+   | 10. 'laomultirXshare' | Share of tract population that are Other/Multiple race beyond X mile from supermarket |
+   | 11. 'lahispXshare' | Share of tract population that are of Hispanic or Latino ethnicity beyond X mile from supermarket |
+   | 12. 'lahunvXshare' | Share of tract housing units that are without vehicle and beyond X mile from supermarket |
+   | 13. 'lasnapXshare' | Share of tract housing units receiving SNAP benefits count beyond X mile from supermarket |
+
+#
       **ML Model Summary and Accuracy (provisional)** 
       
       ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)
       
       ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)
-      
-      
-      
+          
+   
 .
      
    ### Deliverable 4: Database
@@ -189,8 +230,37 @@ Seg. I: Feature variables =
 
 ---
 
-<<<<<<< HEAD
-## Dash
-=======
-.
->>>>>>> origin/main
+### Deliverable 5: Dashboard
+#### Segment - II Requirements:
+
+Dashboard tools: 
+- AWS
+- Tableau
+- Jupyter Notebook
+- Visual Studio Code
+
+Dashboard Storyboard:
+
+- Display the Austin metro area by county: Bastrop, Caldwell, Hays, Travis,  Williamson
+- Within each county identify areas that are food deserts
+- Display housing units without vehicle beyond 1/2,  1, 10, and 20 mile from supermarket
+- Display housing units receiving SNAP benefits beyond 1/2,  1, 10, and 20 mile from a supermarket
+- Display household income below 15,000 dollars		
+- Use a bar chart to show percentage of population with a household income below 15,000 for each county and the portion of those that are  in a food desert
+
+Dashboard Interactive Elements:
+
+- Interactive legend that highlights  food deserts within the five counties of the Austin Metro Area
+- Interactive legend that selects  1/2,  1, 10, and 20 miles for the distance between a supermarket and housing units receiving SNAP benefits  
+- Interactive legend that selects  1/2,  1, 10, and 20 miles for the distance between a supermarket and housing units without vehicle  
+- Hover functions that display
+  - County name
+  - Food desert: 0, 1
+  - Family Income below: 15,000
+- Display value of bars, in bar chart
+- Categorize visualizations by low, median, and high income levels
+
+Example of hover function shown below:
+
+  ![hover_func](Resources/hover_func.PNG)
+
