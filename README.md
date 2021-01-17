@@ -219,33 +219,7 @@ Segment - I:
 
 Segment - II
 
-   | **Feature** | **Description** |
-   | :--- | :--- |
-   | 1. `lapopXshare` | Share of tract population that are beyond X mile from supermarket |
-   | 2. `lalowiXshare` | Share of tract population that are low income individuals beyond X mile from supermarket |
-   | 3. `lakidsXshare` | Share of tract population that are kids beyond X mile from supermarket |
-   | 4. `laseniorsXshare` | Share of tract population that are seniors beyond X mile from supermarket |
-   | 5. `lawhiteXshare` | Share of tract population that are white beyond X mile from supermarket |
-   | 6. `lablackXshare` | Share of tract population that are Black or African American beyond X mile from supermarket |
-   | 7. `laasianXshare` | Share of tract population that are Asian beyond X mile from supermarket |
-   | 8. `lanhopiXshare` | Share of tract population that are Native Hawaiian or Other Pacific Islander beyond X mile from supermarket |
-   | 9. `laaianXshare` | Share of tract population that are American Indian or Alaska Native beyond X mile from supermarket |
-   | 10. `laomultirXshare` | Share of tract population that are Other/Multiple race beyond X mile from supermarket |
-   | 11. `lahispXshare` | Share of tract population that are of Hispanic or Latino ethnicity beyond X mile from supermarket |
-   | 12. `lahunvXshare` | Share of tract housing units that are without vehicle and beyond X mile from supermarket |
-   | 13. `lasnapXshare` | Share of tract housing units receiving SNAP benefits count beyond X mile from supermarket |
 
-
-
-  | **Project<br>Segment** | **Machine Learning Model Summary and Accuracy** |
-  | :--- | :--- |
-  | **Seg - I**<br>(provisional) | ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)<br> ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)<br> |
-  | **Seg - II** | ![NNML_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_summary.png)<br>![NNML_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_accuracy.png) <br> |
-
-<br>
-
-
-Segment II
    | **Feature** | **Description** |
    | :--- | :--- |
    | 1. `lasnaphalfshare`  | Share of tract population that are beyond 1/2 mile from supermarket |
@@ -256,6 +230,16 @@ Segment II
    | 6. `lahunv10share` | Share of tract housing units that are without vehicle and beyond 10 miles from supermarket | 
    | 7. `lasnap20share` | Share of tract housing units receiving SNAP benefits count beyond 20 miles from supermarket |
    | 8. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket |
+
+
+
+  | **Project<br>Segment** | **Machine Learning Model Summary and Accuracy** |
+  | :--- | :--- |
+  | **Seg - I**<br>(provisional) | ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)<br> ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)<br> |
+  | **Seg - II** | ![NNML_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_summary.png)<br>![NNML_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_accuracy.png) <br> |
+
+<br>
+
 
 
 .
