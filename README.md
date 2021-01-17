@@ -116,6 +116,29 @@ Using Machine Learning, can levels of income be accurately predicted based upon 
 
   **Segment - II**
 
+Preliminary data exploration: 
+- The complete census tract contained close to 150 fields.  Excel was used to visually inspect and recognize that some fields could  be condensed or eliminated. Python was used to programmatically reduce the field list to 22 fields.  This allowed us to choose appropriate features for the Machine Learning.
+
+Below is a condensed list of the variables within our data.
+ - The X represents distance in miles. Where X = half, 1, 10, and 20 miles.
+- From this condensed list, we chose #12 & #13 for the Machine Learning.**** 
+
+
+   | **Feature** | **Description** |
+   | :--- | :--- |
+   | 1. 'lapopXshare' | Share of tract population that are beyond X mile from supermarket |
+   | 2. 'lalowiXshare' | Share of tract population that are low income individuals beyond X mile from supermarket |
+   | 3. 'lakidsXshare' | Share of tract population that are kids beyond X mile from supermarket |
+   | 4. 'laseniorsXshare' | Share of tract population that are seniors beyond X mile from supermarket |
+   | 5. 'lawhiteXshare' | Share of tract population that are white beyond X mile from supermarket |
+   | 6. 'lablackXshare' | Share of tract population that are Black or African American beyond X mile from supermarket |
+   | 7. 'laasianXshare' | Share of tract population that are Asian beyond X mile from supermarket |
+   | 8. 'lanhopiXshare' | Share of tract population that are Native Hawaiian or Other Pacific Islander beyond X mile from supermarket |
+   | 9. 'laaianXshare' | Share of tract population that are American Indian or Alaska Native beyond X mile from supermarket |
+   | 10. 'laomultirXshare' | Share of tract population that are Other/Multiple race beyond X mile from supermarket |
+   | 11. 'lahispXshare' | Share of tract population that are of Hispanic or Latino ethnicity beyond X mile from supermarket |
+   | 12. 'lahunvXshare' | Share of tract housing units that are without vehicle and beyond X mile from supermarket |
+   | 13. 'lasnapXshare' | Share of tract housing units receiving SNAP benefits count beyond X mile from supermarket |
 
 Preliminary data preprocessing:
 - Reduced dataframe from all of U.S. to 5 countiesfor the Austin Texas Metro Area 
@@ -140,9 +163,16 @@ How data was split for Training and Testing Sets:
 - To convey the Neural Net Model's Callbacks with Checkpoints and Weights, the Hierarchical Data Format HDF5 as used for saving the weights, and then to load the model for use in the Test of the Austin Metro only data. 
 
 
-Description of the model and its limitations and benefits: "Stephen" 
+Description of the model and its limitations and benefits:
 
-- 
+Three models will be used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
+
+**Neural Network (NN)** 
+Due to the size of this dataset (more than 72,000 datapoints), a NN was included due to the robustness and power of NNs. Unfortunately, NNs are code intensive requiring proper set-up compared to other machine learning models.
+
+**Supervised Machines**
+More easily set-up, outputs and analysis are more simple due to confusion matrices and F1 score.  The ease of analysis and set-up allows for multiple supervised machines to be produced on the same data, allowing for more robust analysis.
+Limitations - large dataset, classifing big data can be a challenge. Imbalanced samples (not enough samples of each classifier) can easily throw off predictions.  
  
 
 #### Outputs labels for input data Segments I & II
@@ -186,6 +216,7 @@ Segment - I:
 
 **Feature variables** 
 
+<<<<<<< HEAD
 Segment - II:
 
    | **Feature** | **Description** |
@@ -213,6 +244,29 @@ Segment - II:
 
 <br>
 
+=======
+Segment II:
+   | **Feature** | **Description** |
+   | :--- | :--- |
+   | 2. `lasnaphalfshare`  | Share of tract population that are beyond 1/2 mile from supermarket |
+   | 4. `lahunvhalfshare` | Share of tract housing units that are without vehicle and beyond 1/2 mile from supermarket | 
+   | 6. `lasnap1share` | Share of tract housing units receiving SNAP benefits count beyond 1 mile from supermarket |
+   | 8. `lahunv1share` | Share of tract housing units that are without vehicle and beyond 1 mile from supermarket | 
+   | 10. `lasnap10share` | Share of tract housing units receiving SNAP benefits count beyond 10 miles from supermarket |
+   | 12. `lahunv10share` | Share of tract housing units that are without vehicle and beyond 10 miles from supermarket | 
+   | 14. `lasnap20share` | Share of tract housing units receiving SNAP benefits count beyond 20 miles from supermarket |
+   | 16. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket |
+
+
+#
+      **ML Model Summary and Accuracy (provisional)** 
+      
+  ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)
+      
+  ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)
+          
+   
+>>>>>>> origin/main
 .
      
    ### Deliverable 4: Database
@@ -275,9 +329,13 @@ Dashboard Interactive Elements:
 
 Example of hover function shown below:
 
+<<<<<<< HEAD
 ![hover_func](images/hover_func.PNG)
 
 
 .
 
 ---
+=======
+![hover_func](images/hover_func.png)
+>>>>>>> origin/main
