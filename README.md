@@ -162,9 +162,16 @@ How data was split: "Larry"
 
 - into training and testing sets: training splitting/stratify 
 
-Description of the model and its limitations and benefits: "Stephen" 
+Description of the model and its limitations and benefits:
 
-- 
+Three models will be used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
+
+**Neural Network (NN)** 
+Due to the size of this dataset (more than 72,000 datapoints), a NN was included due to the robustness and power of NNs. Unfortunately, NNs are code intensive requiring proper set-up compared to other machine learning models.
+
+**Supervised Machines**
+More easily set-up, outputs and analysis are more simple due to confusion matrices and F1 score.  The ease of analysis and set-up allows for multiple supervised machines to be produced on the same data, allowing for more robust analysis.
+Limitations - large dataset, classifing big data can be a challenge. Imbalanced samples (not enough samples of each classifier) can easily throw off predictions.  
  
 
 ##### Outputs labels for input data Segment I & II
@@ -175,9 +182,11 @@ Seg I Target/Output variable =
   | :--- | :--- |
   | **`LILATracts_1And10`** | Low income and low access tract measured at 1 mile for urban areas and 10 miles for rural areas |
 
-Seg II Target/Output variable = "Stephen"
+Seg II Target/Output variable =
 
-#        	
+  | **Target/Output** | **Description** |
+  | :--- | :--- |
+  | **`Income`** | A binary variable created from the "Median Family Income" column.  Categories are "Impoverished" if income is below $15,000 and "Not Impoverished" if income is above $15,000 |      	
 
 **Feature variables** 
 
