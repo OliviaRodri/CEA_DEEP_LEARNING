@@ -50,6 +50,7 @@ UTMCC DataViz Module 20 Project
 --- 
 
 ## Results
+<<<<<<< HEAD
 
   ### For working code and python programs, please see: 
 
@@ -58,6 +59,10 @@ UTMCC DataViz Module 20 Project
 | :--- | :--- | :--- |
 | `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` |  |
 
+=======
+Segment I:
+   * For working code and python program, please see: `Food_Deserts_Module20.ipynb`
+>>>>>>> origin/main
 
 
 ### Deliverables 1 - 4: [Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)
