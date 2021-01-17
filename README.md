@@ -216,8 +216,8 @@ Segment - I:
 
 **Feature variables** 
 
-<<<<<<< HEAD
-Segment - II:
+
+Segment - II
 
    | **Feature** | **Description** |
    | :--- | :--- |
@@ -244,8 +244,8 @@ Segment - II:
 
 <br>
 
-=======
-Segment II:
+
+Segment II
    | **Feature** | **Description** |
    | :--- | :--- |
    | 1. `lasnaphalfshare`  | Share of tract population that are beyond 1/2 mile from supermarket |
@@ -258,18 +258,6 @@ Segment II:
    | 8. `lahunv20share` | Share of tract housing units that are without vehicle and beyond 20 miles from supermarket |
 
 
-<<<<<<< HEAD
-=======
-#
-      **ML Model Summary and Accuracy (provisional)** 
-      
-  ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)
-      
-  ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)
-          
-   
->>>>>>> origin/main
->>>>>>> origin/main
 .
      
    ### Deliverable 4: Database
@@ -279,7 +267,7 @@ Segment II:
   * Sample data that mimics the expected final database structure or schema 
   * Draft machine learning module is connected to the provisional database  
 
-  #### Segment - II database Requirements: (Complete)
+  #### Segment - II Database Requirements: (Complete)
   * stores static data
   * interfaces with the project
   * includes minimum of two tables
@@ -332,13 +320,5 @@ Dashboard Interactive Elements:
 
 Example of hover function shown below:
 
-<<<<<<< HEAD
-![hover_func](images/hover_func.PNG)
+  ![hover_func](images/hover_func.png)
 
-
-.
-
----
-=======
-![hover_func](images/hover_func.png)
->>>>>>> origin/main
