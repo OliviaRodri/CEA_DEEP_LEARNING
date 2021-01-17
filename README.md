@@ -23,10 +23,18 @@ UTMCC DataViz Module 20 Project
    
    
    The deliverables are: 
+<<<<<<< HEAD
+   - Deliverable 1: Presentation
+   - Deliverable 2: GitHub
+   - Deliverable 3: Machine Learning Model
+   - Deliverable 4: Database
+   - Deliverable 5: Dashboard
+=======
    * Deliverable 1: Presentation
    * Deliverable 2: GitHub
    * Deliverable 3: Machine Learning Model
    * Deliverable 4: Database
+>>>>>>> origin/main
   
    
   
@@ -181,4 +189,8 @@ Seg. I: Feature variables =
 
 ---
 
+<<<<<<< HEAD
+## Dash
+=======
 .
+>>>>>>> origin/main
