@@ -147,7 +147,6 @@ Preliminary data preprocessing:
 
 Preliminary feature engineering, preliminary feature
 selection, and decision making process: 
-(!Stephen, if needed, make edits for this section)
 
 - Feature engineering: Created an impoverished column
 - Feature Selection: Distance to supermarkets for housing units without vehicle and housing units receiving SNAP benefits
