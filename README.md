@@ -94,10 +94,7 @@ Using Machine Learning, can levels of income be accurately predicted based upon 
    ### Deliverable 2: GitHub  
    
    * READ.me established - complete 
-   * Description of the communication protocols   
-     - Slack (messaging)
-     - Zoom (group meetings)
-     - Git (working on your branch and creating pull requests) 
+    
    * Individual Branches established, and each team member with min of:  
     
   Segment - I : 4 commits each 
