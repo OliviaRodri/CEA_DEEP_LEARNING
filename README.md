@@ -99,7 +99,11 @@ Using Machine Learning, can levels of income be accurately predicted based upon 
     
   Segment - I : 4 commits each 
 
-  Segment - II: 8 total commits each 
+  Segment - II: 8 total commits each
+
+  Segment - III: 12 total commits each
+
+
 
 
    . 
