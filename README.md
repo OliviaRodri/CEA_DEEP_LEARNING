@@ -50,7 +50,7 @@ UTMCC DataViz Module 20 Team Project
 | :---: | :---: | :---: | :---: | :---: |
 | Segment - I  | **Triangle**<br>ML Model | **Square**<br>GitHub Repo | **X**<br>tech choices | **Circle**<br>database |
 | Segment - II | **Triangle** | **Square** | **X** | **Circle** |
-| Segment - III |  |  |  |  |
+| Segment - III |**Triangle** | **Square** | **X** | **Circle**|
 | Segment - IV |  |  |  |  |
 
 
