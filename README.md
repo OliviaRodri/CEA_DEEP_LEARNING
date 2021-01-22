@@ -88,12 +88,15 @@ What geographic areas in the Austin, Texas metro area are defined as "Food Deser
       - Segment - II:
 Using Machine Learning, can levels of income be accurately predicted based upon a census tract being considered a food desert?
 
+      - Segment - III
+Solution questions for future  
+
 
 .
 
    ### Deliverable 2: GitHub  
    
-   * READ.me established - complete 
+   * READ.me established  
     
    * Individual Branches established, and each team member with min of:  
     
