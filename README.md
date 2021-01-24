@@ -322,13 +322,21 @@ Segment III:
 - Hover functions for maps & charts
   - County name
   - Food desert: True or False
-  - Impoverished
+  - Poverty Income level <= $24,250 
   - No vehicle
   - Population count
 
-Example of Dashboard:
+Preprocess data for Tableau image:
+
+  ![tab_preprocess](images/preprocess_data_tableau_.png)
+
+Example of Dashboard 1:
 
   ![dash_board](images/Food_Desert_Dash.png)
+
+Example of Dashboard 2:
+
+  ![hover_func1](images/CA_IL_NY_dash.png)
 
 Example of hover functions shown below:
 
