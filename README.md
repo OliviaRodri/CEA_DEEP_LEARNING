@@ -276,6 +276,9 @@ Segment - II
 <br>
 
 ### Deliverable 5: Dashboard
+
+[Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)
+
 #### Segment - II Requirements:
 
 Dashboard tools: 
@@ -286,6 +289,7 @@ Dashboard tools:
 
 Dashboard Storyboard:
 
+Segment II:
 - Display the Austin metro area by county: Bastrop, Caldwell, Hays, Travis,  Williamson
 - Within each county identify areas that are food deserts
 - Display housing units without vehicle beyond 1/2,  1, 10, and 20 mile from supermarket
@@ -293,8 +297,18 @@ Dashboard Storyboard:
 - Display household income below 15,000 dollars		
 - Use a bar chart to show percentage of population with a household income below 15,000 for each county and the portion of those that are  in a food desert
 
+Segment III additions/edits:
+- Create a bar chart that displays population for the five counties in Austin that are in a food desert and non food deserts
+- Display housing units without vehicle beyond 1 & 10 miles of a supermarket
+- Use a bar chart to show percentage of population with a household income below 24,250 dollars for each county and the portion of those that are  in a food desert
+- Display bar chart of population of kids 0-17 years of age, who are impoverished and are in a Food Deserts in the Metro Austin area (Williamson, Bastrop, Caldwell, Hays, and Travis Counties)
+- Show food desert maps for the following states: California, Illinois, & New York
+- Display bar chart of population of kids 0-17 years of age, who are impoverished and are in Food Deserts for the states of California, Illinois, & New York 
+
+
 Dashboard Interactive Elements:
 
+Segment II:
 - Interactive legend that highlights  food deserts within the five counties of the Austin Metro Area
 - Interactive legend that selects  1/2,  1, 10, and 20 miles for the distance between a supermarket and housing units receiving SNAP benefits  
 - Interactive legend that selects  1/2,  1, 10, and 20 miles for the distance between a supermarket and housing units without vehicle  
@@ -305,7 +319,26 @@ Dashboard Interactive Elements:
 - Display value of bars, in bar chart
 - Categorize visualizations by low, median, and high income levels
 
-Example of hover function shown below:
+Dashboard Interactive Elements:
 
-  ![hover_func](images/hover_func.png)
+Segment III:
+
+- Hover functions for maps & charts
+  - County name
+  - Food desert: True or False
+  - Impoverished
+  - No vehicle
+  - Population count
+
+Example of Dashboard:
+
+  ![dash_board](images/Food_Desert_Dash.png)
+
+Example of hover functions shown below:
+
+  ![hover_func1](images/hover_func_1.png)
+
+  ![hover_func2](images/pop_county_food_d.png)
+
+  ![hover_func3](images/kid_impoverished_county.png)
 
