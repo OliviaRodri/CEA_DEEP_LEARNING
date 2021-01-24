@@ -360,5 +360,5 @@ Example of hover functions shown below:
 
   ![hover_func2](images/pop_county_food_d.png)
 
-  ![hover_func3](images/kid_impoverished_county.png)
+  ![hover_func3](images/kid_poverty_income_county.png)
 
