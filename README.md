@@ -347,7 +347,7 @@ Segment III:
   - No vehicle
   - Population count
 
-Preprocess data for Tableau:
+Preprocess data for Tableau Dashboards & Storyboard:
 
   ![tab_preprocess](images/preprocess_data_tableau_.png)
 
