@@ -65,7 +65,7 @@ UTMCC DataViz Module 20 Team Project
 
 | **Segment - I** | **Segment - II** | **Segment - III** |
 | :--- | :--- | :--- |
-| `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` | Data, database and Py Neural Net ML Model: `Food_Deserts_NN_Segment3_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` |
+| `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` | Data, database and Py Neural Net ML Model: `Food_Deserts_NN_Segment3_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Prep for Tableau Vizualizations: `tableau_data_explore_OR.ipynb` |
 
 - - - 
 [Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)
@@ -90,8 +90,7 @@ What geographic areas in the Austin, Texas metro area are defined as "Food Deser
       - Segment - II:
 Using Machine Learning, can levels of income be accurately predicted based upon a census tract being considered a food desert?
 
-      - Segment - III
-Solution questions for future  
+      - Segment - IV:  Identify any questions for continuation of the project, and recommendations for future analysis.
 
 
 .
@@ -147,8 +146,9 @@ Below is a condensed list of the variables within our data.
    | 13. `lasnapXshare` | Share of tract housing units receiving SNAP benefits count beyond X mile from supermarket |
 
 Preliminary data preprocessing:
-- Reduced dataframe from all of U.S. to 5 countiesfor the Austin Texas Metro Area 
-- Created “Income” column which is based upon “Median Household Income”: <15000 (Impoverished), >15000 (Not Impoverished)
+- Data set was checked for missing, null values with `isnull()`. No missing values were found.
+- Reduced dataframe from all of U.S. to five counties for the Austin Texas Metro Area 
+- Created “Income” column which is based upon “Median Household Income”, to be used as the target output for the machine learning models, y. The Income thresholds are: <= $24,250 (Impoverished), and > $24,250 (Not Impoverished). The Income threshold chosen is based on government guidance from 2015 for the Poverty Income Level for a family of four.
 
 
 Preliminary feature engineering, preliminary feature
@@ -162,15 +162,20 @@ selection, and decision making process:
 
 How data was split for Training and Testing Sets: 
 
-- After the original dataset csv file was imported as the file `food_atlas_df`, it was preprocessed in two paths. One set with the purpose to use for Training the Neural Network Model, and one set of data as the subset for the Austin Metro Area that was to be used for Testing. 
+- After the original dataset csv file was imported as the file `food_atlas_df`, it was preprocessed in two paths. One set with the purpose to use for Training the Neural Network Model, and one set of data as the subset for the Austin Metro Area that was used for Testing. 
 - The dataframe used for Training was the `food_desertUS_df` set, and incorporates all original 72,864 rows of U.S. Census Tract data, preprocessed with model's X-Features with the generated y-Target as the Output for "Income". 
 - A new dataframe was generated to be the Test data, `food_desert_Austin_df`, and included data only for the Census Tracts within the five Counties for the Austin Metro Area. In comparison, this data consists of 350 rows of data, with similar preprocessing for the same X-Features and y-Target for "Income".
 - To convey the Neural Net Model's Callbacks with Checkpoints and Weights, the Hierarchical Data Format HDF5 as used for saving the weights, and then to load the model for use in the Test of the Austin Metro only data. 
 
+Description of current accuracy score: (Please see the images below that highlight the Machine Learning Accuracy evaluation.)
+- Training Accuracy, using full U.S. Census Tract data: 96.30%, with Loss of 0.113
+- Testing Accuracy, on Test group of Austin-Metro-Area data: 96.59%, with Loss of 0.155 
+- The accuracy score from the training set is relatively high, and with low loss. The model's weights are used with the test data model, and with a very similar value for accuracy as a result.
+
 
 Description of the model and its limitations and benefits:
 
-Three models will be used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
+Three models were used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
 
 **Neural Network (NN)** 
 Due to the size of this dataset (more than 72,000 datapoints), a NN was included due to the robustness and power of NNs. Unfortunately, NNs are code intensive requiring proper set-up compared to other machine learning models.
@@ -199,7 +204,7 @@ Segment - III Target/Output variable =
 
   | **Target/Output** | **Description** |
   | :--- | :--- |
-  | **`Income`** | A binary variable created from the "Median Family Income" column.  Categories are "Impoverished" if income is below or equal to $24,250 and "Not Impoverished" if income is above $24,250. <br>The target variable was already numeric int32, not categorical, however, a OneHotEncoder instance was created for the target to ensure that the values are encoded for use within the ML model. Post endoding, the Income value dtype was  float64. | 
+  | **`Income`** | A binary variable created from the "Median Family Income" column.  Categories are "Impoverished" if income is below or equal to $24,250 and "Not Impoverished" if income is above $24,250. <br>The target variable was already numeric int32, not categorical, however, a OneHotEncoder instance was created for the target to ensure that the values are encoded for use within the ML model. Post encoding, the Income value dtype was  float64. | 
 
 .
 
