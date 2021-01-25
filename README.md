@@ -167,10 +167,15 @@ How data was split for Training and Testing Sets:
 - A new dataframe was generated to be the Test data, `food_desert_Austin_df`, and included data only for the Census Tracts within the five Counties for the Austin Metro Area. In comparison, this data consists of 350 rows of data, with similar preprocessing for the same X-Features and y-Target for "Income".
 - To convey the Neural Net Model's Callbacks with Checkpoints and Weights, the Hierarchical Data Format HDF5 as used for saving the weights, and then to load the model for use in the Test of the Austin Metro only data. 
 
+Description of current accuracy score: (Please see the images below that highlight the Machine Learning Accuracy evaluation.)
+- Training Accuracy, using full U.S. Census Tract data: 96.30%, with Loss of 0.113
+- Testing Accuracy, on Test group of Austin-Metro-Area data: 96.59%, with Loss of 0.155 
+- The accuracy score from the training set is relatively high, and with low loss. The model's weights are used with the test data model, and with a very similar value for accuracy as a result.
+
 
 Description of the model and its limitations and benefits:
 
-Three models will be used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
+Three models were used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
 
 **Neural Network (NN)** 
 Due to the size of this dataset (more than 72,000 datapoints), a NN was included due to the robustness and power of NNs. Unfortunately, NNs are code intensive requiring proper set-up compared to other machine learning models.
