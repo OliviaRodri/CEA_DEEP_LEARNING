@@ -22,7 +22,7 @@ UTMCC DataViz Module 20 Team Project
    To apply machine learning and deep learning neural networks, and using the features within the provided dataset, create a binary classifier that is capable of predicting locations that are potentially food deserts, and to determine a correlation between an identified food desert location with the median income level of the population.  
    
    
-   The deliverables are:
+  #### Deliverables:
    
    Segment I
    * Deliverable 1: Presentation
@@ -30,19 +30,17 @@ UTMCC DataViz Module 20 Team Project
    * Deliverable 3: Machine Learning Model
    * Deliverable 4: Database
     
-  Segments II and III
+  Segments II, III and IV
    - Deliverable 1: Presentation
    - Deliverable 2: GitHub
    - Deliverable 3: Machine Learning Model
    - Deliverable 4: Database
    - Deliverable 5: Dashboard
-
-  
    
   
-   ### Resources
+  ### Resources
   * Data source: food_access_research_atlas.csv, food_access_variable_lookup.csv  sourced via kaggle https://www.kaggle.com/tcrammond/food-access-and-food-deserts from the USDA Economic Research Service, United States Department of Agriculture: https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/ 
-  * Software: Windows10, Python 3.8.3, Pandas, GitHub, Jupyter Notebook, Colab Notebook, VS Code, Scikit-learn, TensorFlow, Boto 3, SQLAlchemy, SQLite, PostgreSQL, pgAdmin, Tableau 
+  * Software: Windows10, Python 3.8.3, Pandas, GitHub, Jupyter Notebook, Colab Notebook, VS Code, Scikit-learn, TensorFlow, Boto3, SQLAlchemy, SQLite, PostgreSQL, pgAdmin, Tableau 
   * Services: AWS S3 data storage, AWS RDS database hosting.
   
   
@@ -51,7 +49,7 @@ UTMCC DataViz Module 20 Team Project
 | Segment - I  | **Triangle**<br>ML Model | **Square**<br>GitHub Repo | **X**<br>tech choices | **Circle**<br>database |
 | Segment - II | **Triangle** | **Square** | **X** | **Circle** |
 | Segment - III |**Triangle** | **Square** | **X** | **Circle**|
-| Segment - IV |  |  |  |  |
+| Segment - IV | **Triangle** | **Square** | **X** | **Circle**| 
 
 
   
@@ -67,14 +65,22 @@ UTMCC DataViz Module 20 Team Project
 | :--- | :--- | :--- |
 | `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` | Data, database and Py Neural Net ML Model: `Food_Deserts_NN_Segment3_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Prep for Tableau Vizualizations: `tableau_data_explore_OR.ipynb` |
 
+
+| **Segment - IV** |
+| :--- |
+| Data preprocessing, database connection,  and Python Neural Net ML Model: `Food_Deserts_NN_Segment4_Final.ipynb`<br>Python Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Preprocessing for Tableau Visualizations: `tableau_data_explore_OR.ipynb` | 
+
+
 - - - 
-[Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)
+
+### **[Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)**
+
 - - - 
 
-### Deliverables 1 - 4: [Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)
+### Deliverables 1 - 4: **[Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)**
 
 
-   ### Deliverable 1: Presentation
+  ### Deliverable 1: Presentation
    
    * Selected topic:  Food Deserts in the Austin, Texas Metro Area.
   
@@ -95,7 +101,7 @@ Using Machine Learning, can levels of income be accurately predicted based upon 
 
 .
 
-   ### Deliverable 2: GitHub  
+  ### Deliverable 2: GitHub  
    
    * READ.me established  
     
@@ -107,8 +113,7 @@ Using Machine Learning, can levels of income be accurately predicted based upon 
 
   Segment - III: 12 total commits each
 
-
-
+  Segment - IV: 16 total commits each
 
    . 
 
@@ -235,7 +240,7 @@ Segment - I:
 **Feature variables** 
 
 
-Segment - II
+**for Segments - II, III and IV**
 
 
    | **Feature** | **Description** |
@@ -258,20 +263,39 @@ Segment - II
   | **Seg - III** | **ML Training on full U.S. Census dataset**<br> ![NNML_training_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_training_summary.png)<br>![NNML_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_training_accuracy.png) <br>.**ML Testing on the Austin-Metro only data** <br> ![NNML_test_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_test_summary.png) <br>![NNML_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_test_accuracy.png) <br> |
 
 
+
+ 
+| **Segment - IV** | **NN Deep Learning Model** |
+| :--- | :--- |
+| **Training** | **on full U.S. Census dataset**<br>Accuracy:<br>![NNML__FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML__FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
+| **Testing** | **on the Austin-Metro only data** <br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) <br> |
+
+
 <br>
 
+## Note: If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project.
 
+
+## the model obviously addresses the question or problem the team is solving. 
+
+
+## Results of Analysis
+
+
+## 
+
+<br>
 
 .
      
    ### Deliverable 4: Database
    
-  #### Segment - I Requirements: (Complete)
+  #### Segment - I Database Requirements: 
   * Present a provisional database that stands in for the final database and accomplishes the following:
   * Sample data that mimics the expected final database structure or schema 
   * Draft machine learning module is connected to the provisional database  
 
-  #### Segment - II Database Requirements: (Complete)
+  #### Segment - II, III and IV Database Requirements:
   * stores static data
   * interfaces with the project
   * includes minimum of two tables
@@ -282,19 +306,27 @@ Segment - II
       
      | **Project<br>Segment** | **database Status** |
      | :--- | :--- |
-     | **Seg - I** | moving pandas dataframe data into SQLite db table<br> ![data_to_sqlite.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/data_to_sqlite.png)<br>SQLite db table data to pd dataframe for ML model<br> ![SQLdata_to_newDataFrame.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/SQLdata_to_newDataFrame.png)<br>Machine Learning model dataframe source<br> ![DF_to_MLmodel.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/DF_to_MLmodel.png) |
+     | **Segment - I** | moving pandas dataframe data into SQLite db table<br> ![data_to_sqlite.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/data_to_sqlite.png)<br>SQLite db table data to pd dataframe for ML model<br> ![SQLdata_to_newDataFrame.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/SQLdata_to_newDataFrame.png)<br>Machine Learning model dataframe source<br> ![DF_to_MLmodel.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/DF_to_MLmodel.png) |
      |  |  |
-     | **Seg - II (updates)** | **Using AWS RDS, and pgAdmin as the User Iinterface. Eight Tables are established.**<br>![pgadmin_aws_sql.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/pgadmin_aws_sql.png)<br>**The project interface and connection strings to PostgreSQL with SQLAlchemy in Python.**<br>![sqlalchemy_aws_rds_connect.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sqlalchemy_aws_rds_connect.png) <br>**Two JOIN unions are made, a LEFT JOIN within pgAdmin, and an INNER JOIN.**<br>![postgresql_sql_join.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/postgresql_sql_join.png) <br>**The ERD, showing relationships.**<br>![sql_erd.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sql_erd.png) |
-     |  |  |
-     | **** | ... |
+     | **Segments - II, III and IV** | **Using AWS RDS, and pgAdmin as the User Iinterface. Eight Tables are established.**<br>![pgadmin_aws_sql.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/pgadmin_aws_sql.png)<br>**The project interface and connection strings to PostgreSQL with SQLAlchemy in Python.**<br>![sqlalchemy_aws_rds_connect.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sqlalchemy_aws_rds_connect.png) <br>**Two JOIN unions are made, a LEFT JOIN within pgAdmin, and an INNER JOIN.**<br>![postgresql_sql_join.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/postgresql_sql_join.png) <br>**The ERD, showing relationships.**<br>![sql_erd.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sql_erd.png) |
+    
 
 . 
+
+#### Data Pipeline and Technologies Used
+
+![data_pipeline.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/data_pipeline.png)
+
+
+
+
+.
 
 <br>
 
 ### Deliverable 5: Dashboard
 
-[Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)
+**[Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)**
 
 #### Segment - II Requirements:
 
