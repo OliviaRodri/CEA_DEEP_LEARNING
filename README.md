@@ -173,8 +173,8 @@ How data was split for Training and Testing Sets:
 - To convey the Neural Net Model's Callbacks with Checkpoints and Weights, the Hierarchical Data Format HDF5 as used for saving the weights, and then to load the model for use in the Test of the Austin Metro only data. 
 
 Description of current accuracy score: (Please see the images below that highlight the Machine Learning Accuracy evaluation.)
-- Training Accuracy, using full U.S. Census Tract data: 96.30%, with Loss of 0.113
-- Testing Accuracy, on Test group of Austin-Metro-Area data: 96.59%, with Loss of 0.155 
+- Training Accuracy, using full U.S. Census Tract data: 96.25%, with Loss of 0.112
+- Testing Accuracy, on Test group of Austin-Metro-Area data: 96.45%, with Loss of 0.164 
 - The accuracy score from the training set is relatively high, and with low loss. The model's weights are used with the test data model, and with a very similar value for accuracy as a result.
 
 
@@ -205,7 +205,7 @@ Segment - II Target/Output variable =
   | **`Income`** | A binary variable created from the "Median Family Income" column.  Categories are "Impoverished" if income is below $15,000 and "Not Impoverished" if income is above $15,000.  | 
 
 
-Segment - III Target/Output variable =
+Segments - III and IV Target/Output variable =
 
   | **Target/Output** | **Description** |
   | :--- | :--- |
@@ -267,7 +267,7 @@ Segment - I:
  
 | **Segment - IV** | **NN Deep Learning Model** |
 | :--- | :--- |
-| **Training** | **on full U.S. Census dataset**<br>Accuracy:<br>![NNML__FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML__FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
+| **Training** | **on full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML__FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
 | **Testing** | **on the Austin-Metro only data** <br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) <br> |
 
 
