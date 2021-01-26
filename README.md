@@ -258,16 +258,16 @@ Segment - I:
 
   | **Project<br>Segment** | **Machine Learning Model Summary and Accuracy** |
   | :--- | :--- |
-  | **Seg - I**<br>(provisional) | ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)<br> ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)<br> |
-  | **Seg - II** | ![NNML_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_summary.png)<br>![NNML_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_accuracy.png) <br> . |
-  | **Seg - III** | **ML Training on full U.S. Census dataset**<br> ![NNML_training_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_training_summary.png)<br>![NNML_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_training_accuracy.png) <br>.**ML Testing on the Austin-Metro only data** <br> ![NNML_test_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_test_summary.png) <br>![NNML_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_test_accuracy.png) <br> |
+  | **Segment - I**<br>(provisional) | ![MLmodel_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_summary.png)<br> ![MLmodel_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/MLmodel_accuracy.png)<br> |
+  | **Segment - II** | ![NNML_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_summary.png)<br>![NNML_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_accuracy.png) <br> . |
+  | **Segment - III** | **ML Training on full U.S. Census dataset**<br> ![NNML_training_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_training_summary.png)<br>![NNML_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_training_accuracy.png) <br>.**ML Testing on the Austin-Metro only data** <br> ![NNML_test_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_test_summary.png) <br>![NNML_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_test_accuracy.png) <br> |
 
 
 
  
 | **Segment - IV** | **NN Deep Learning Model** |
 | :--- | :--- |
-| **Training** | **on full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML__FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
+| **Training** | **on full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
 | **Testing** | **on the Austin-Metro only data** <br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) <br> |
 
 
@@ -308,7 +308,7 @@ Segment - I:
      | :--- | :--- |
      | **Segment - I** | moving pandas dataframe data into SQLite db table<br> ![data_to_sqlite.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/data_to_sqlite.png)<br>SQLite db table data to pd dataframe for ML model<br> ![SQLdata_to_newDataFrame.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/SQLdata_to_newDataFrame.png)<br>Machine Learning model dataframe source<br> ![DF_to_MLmodel.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/DF_to_MLmodel.png) |
      |  |  |
-     | **Segments - II, III and IV** | **Using AWS RDS, and pgAdmin as the User Iinterface. Eight Tables are established.**<br>![pgadmin_aws_sql.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/pgadmin_aws_sql.png)<br>**The project interface and connection strings to PostgreSQL with SQLAlchemy in Python.**<br>![sqlalchemy_aws_rds_connect.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sqlalchemy_aws_rds_connect.png) <br>**Two JOIN unions are made, a LEFT JOIN within pgAdmin, and an INNER JOIN.**<br>![postgresql_sql_join.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/postgresql_sql_join.png) <br>**The ERD, showing relationships.**<br>![sql_erd.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sql_erd.png) |
+     | **Segments - II, III and IV** | **Using AWS RDS, and pgAdmin as the User Iinterface. Eight Tables are established.**<br>![pgadmin_aws_sql.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/pgadmin_aws_sql.png)<br>**The project interface and connection strings to PostgreSQL with SQLAlchemy in Python.**<br>![sqlalchemy_aws_rds_connect.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sqlalchemy_aws_rds_connect.png) <br>**Three JOIN unions are made, a LEFT JOIN within pgAdmin, and 2 INNER JOINs.**<br>![postgresql_sql_join.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/postgresql_sql_join.png) <br>**The ERD, showing relationships.**<br>![sql_erd.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/sql_erd.png) |
     
 
 . 
