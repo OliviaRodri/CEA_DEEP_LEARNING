@@ -393,7 +393,7 @@ Example of Dashboard 2:
 
 Example of hover functions shown below:
 
-  ![hover_func1](images/hover_func_1.png)
+  ![hover_func1](images/Austin_counties_FD.png)
 
   ![hover_func2](images/pop_county_food_d.png)
 
