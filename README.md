@@ -75,9 +75,13 @@ UTMCC DataViz Module 20 Team Project
 
 ### **[Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)**
 
+. 
+
+### **[Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)**
+
 - - - 
 
-### Deliverables 1 - 4: **[Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)**
+### Deliverables 1 - 4: 
 
 
   ### Deliverable 1: Presentation
@@ -173,8 +177,8 @@ How data was split for Training and Testing Sets:
 - To convey the Neural Net Model's Callbacks with Checkpoints and Weights, the Hierarchical Data Format HDF5 as used for saving the weights, and then to load the model for use in the Test of the Austin Metro only data. 
 
 Description of current accuracy score: (Please see the images below that highlight the Machine Learning Accuracy evaluation.)
-- Training Accuracy, using full U.S. Census Tract data: 96.25%, with Loss of 0.112
-- Testing Accuracy, on Test group of Austin-Metro-Area data: 96.45%, with Loss of 0.164 
+- Training Accuracy, using full U.S. Census Tract data: 96.30%, with Loss of 0.112
+- Testing Accuracy, on Test group of Austin-Metro-Area data: 94.32%, with Loss of 0.158 
 - The accuracy score from the training set is relatively high, and with low loss. The model's weights are used with the test data model, and with a very similar value for accuracy as a result.
 
 
