@@ -286,17 +286,13 @@ Similar to the training model, the model's overall accuracy is 94%.  This is als
 ## Statistical Analysis 
 ### If statistical analysis is not included as part of the analysis, describe how it would be included in the next future phases of the project:
 Descriptive statistcal analysis would be beneficial going forward.  The income level bins "<=$24.250"" and ">$24,250" could be more informed this way.  Minimum, Maximums, Medians, histograms and value counts would be useful to understand how the data is spread out - what is the lowest income? how many data points are in that income level?  This type of analysis could help guide further income categories.  Additionally, knowing how many data points fall within each new bracket would assist in deciding how much of the data should be split into training and testing.
-.
+
 
 ## Results of Analysis
-# STEVE - Description to write - in the bullets below ...
 ### Describe how the ML NN model addresses the question the project is solving: 
-* abc
-* def
-* hij
-* Based upon current category definitions, model suffers from severe underfitting
+* The model does address our research question: Can income level be predicting using ML and our Kaggle dataset?  However, the model does suffer from underfitting.  The categories are too broad so the machine isn't complex enough to really capture the data.
+* This issue can, potentially, be overcome by using the descriptive statistics discussed above.  
 
-.
 
 ## Recommendations for Future Analysis, 
   ### and Things the team may have done differently:
@@ -308,9 +304,7 @@ Descriptive statistcal analysis would be beneficial going forward.  The income l
 * Perform and use descriptive statistics
 
 <br>
-
-.
-     
+    
   ## Deliverable 4: Database
    
   #### Segment - I Database Requirements: 
