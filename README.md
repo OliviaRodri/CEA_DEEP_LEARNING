@@ -397,9 +397,12 @@ Preprocess data for Tableau Dashboards & Storyboard:
 
   ![tab_preprocess](images/preprocess_data_tableau_.png)
 
+
 Example of Dashboard 1:
 
   ![dash_board](images/Food_Desert_Dash.png)
+
+Segment IV:
 
 Example of Dashboard 2:
 
