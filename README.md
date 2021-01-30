@@ -75,9 +75,13 @@ UTMCC DataViz Module 20 Team Project
 
 ### **[Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)**
 
+. 
+
+### **[Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)**
+
 - - - 
 
-### Deliverables 1 - 4: **[Presentation: Link for Google Slides](https://docs.google.com/presentation/d/1dVX5367_KH2e2Uqa4BGjRZkU12r1eEsXX5KotbnEDtQ/edit?usp=sharing)**
+### Deliverables 1 - 4: 
 
 
   ### Deliverable 1: Presentation
@@ -118,7 +122,7 @@ Using Machine Learning, can levels of income be accurately predicted based upon 
    . 
 
 
-   ### Deliverable 3: Machine Learning Model
+  ## Deliverable 3: Machine Learning Model
 
   **Segment - I** 
    * Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
@@ -126,7 +130,7 @@ Using Machine Learning, can levels of income be accurately predicted based upon 
 
   **Segments - II and III**
 
-Preliminary data exploration: 
+**Preliminary data exploration:** 
 - The complete census tract contained close to 150 fields.  Excel was used to visually inspect and recognize that some fields could  be condensed or eliminated. Python was used to programmatically reduce the field list to 22 fields.  This allowed us to choose appropriate features for the Machine Learning.
 
 Below is a condensed list of the variables within our data.
@@ -150,14 +154,14 @@ Below is a condensed list of the variables within our data.
    | 12. `lahunvXshare` | Share of tract housing units that are without vehicle and beyond X mile from supermarket |
    | 13. `lasnapXshare` | Share of tract housing units receiving SNAP benefits count beyond X mile from supermarket |
 
-Preliminary data preprocessing:
+**Preliminary data preprocessing:**
 - Data set was checked for missing, null values with `isnull()`. No missing values were found.
 - Reduced dataframe from all of U.S. to five counties for the Austin Texas Metro Area 
 - Created “Income” column which is based upon “Median Household Income”, to be used as the target output for the machine learning models, y. The Income thresholds are: <= $24,250 (Impoverished), and > $24,250 (Not Impoverished). The Income threshold chosen is based on government guidance from 2015 for the Poverty Income Level for a family of four.
 
 
-Preliminary feature engineering, preliminary feature
-selection, and decision making process: 
+**Preliminary feature engineering, preliminary feature
+selection, and decision making process:** 
 
 - Feature engineering: Created an impoverished column
 - Feature Selection: Distance to supermarkets for housing units without vehicle and housing units receiving SNAP benefits
@@ -165,20 +169,15 @@ selection, and decision making process:
 - Decision made: As a group, we decided “no, vehicle and snap benefits would be a better indicator for the Machine Learning.”
  
 
-How data was split for Training and Testing Sets: 
+**Description of how data was split for Training and Testing Sets:** 
 
 - After the original dataset csv file was imported as the file `food_atlas_df`, it was preprocessed in two paths. One set with the purpose to use for Training the Neural Network Model, and one set of data as the subset for the Austin Metro Area that was used for Testing. 
 - The dataframe used for Training was the `food_desertUS_df` set, and incorporates all original 72,864 rows of U.S. Census Tract data, preprocessed with model's X-Features with the generated y-Target as the Output for "Income". 
 - A new dataframe was generated to be the Test data, `food_desert_Austin_df`, and included data only for the Census Tracts within the five Counties for the Austin Metro Area. In comparison, this data consists of 350 rows of data, with similar preprocessing for the same X-Features and y-Target for "Income".
 - To convey the Neural Net Model's Callbacks with Checkpoints and Weights, the Hierarchical Data Format HDF5 as used for saving the weights, and then to load the model for use in the Test of the Austin Metro only data. 
 
-Description of current accuracy score: (Please see the images below that highlight the Machine Learning Accuracy evaluation.)
-- Training Accuracy, using full U.S. Census Tract data: 96.25%, with Loss of 0.112
-- Testing Accuracy, on Test group of Austin-Metro-Area data: 96.45%, with Loss of 0.164 
-- The accuracy score from the training set is relatively high, and with low loss. The model's weights are used with the test data model, and with a very similar value for accuracy as a result.
 
-
-Description of the model and its limitations and benefits:
+**Description of the model choice and its limitations and benefits:**
 
 Three models were used: Neural Network and two Supervised models (Easy Ensemble AdaBoost Classifer and Balanced Random Forest)
 
@@ -262,40 +261,58 @@ Segment - I:
   | **Segment - II** | ![NNML_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_summary.png)<br>![NNML_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_accuracy.png) <br> . |
   | **Segment - III** | **ML Training on full U.S. Census dataset**<br> ![NNML_training_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_training_summary.png)<br>![NNML_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_training_accuracy.png) <br>.**ML Testing on the Austin-Metro only data** <br> ![NNML_test_summary.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_test_summary.png) <br>![NNML_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_test_accuracy.png) <br> |
 
+.
 
+**Description and explanation of the model’s final Accuracy score, and the confusion matrix:** (Please see the images below.)
 
+**Accuracy**
+- Training Accuracy, using full U.S. Census Tract data: 96.30%, with Loss of 0.112
+- Testing Accuracy, on Test group of Austin-Metro-Area data: 94.32%, with Loss of 0.158 
+- The accuracy score from the training set is relatively high, and with low loss. The model's weights are used with the test data model, and with a very similar value for accuracy as a result.
+
+**Confusion Matrix**
+*Analysis*
  
 | **Segment - IV** | **NN Deep Learning Model** |
 | :--- | :--- |
-| **Training** | **on full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
-| **Testing** | **on the Austin-Metro only data** <br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) <br> |
+| **Training** | **Full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
+The model's overall accuracy is 96%.  This is also reflected in the Confusion Matrix.  Of the 18,216 data points in the training partition (roughly 25% of the total), 17,497 were "true negatives."  This means that the training model predicted 17497 points would be "Above Poverty Level" and those were true predictions.  While 719 were predicted to be "Above Poverty Level" and they were falsely labeled with those 719 actually being "Below Poverty Level."  This is a Type-1 (False Positive) Error.
 
+| **Testing** | **Austin-Metro only data** <br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) <br> |
+Similar to the training model, the model's overall accuracy is 94%.  This is also reflected in the Confusion Matrix.  Of the 88 data points in the testing partition (roughly 25% of the total), 85 were "true negatives."  This means that the training model predicted 85 points would be "Above Poverty Level" and those were true predictions.  While 3 were predicted to be "Above Poverty Level" and they were falsely labeled with those 719 actually being "Below Poverty Level."  Again, this is a Type-1 (False Positive) Error.
 
 <br>
 
-## Note: If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project.
-
-
-## the model obviously addresses the question or problem the team is solving. 
+## Statistical Analysis 
+### If statistical analysis is not included as part of the analysis, describe how it would be included in the next future phases of the project:
+Descriptive statistcal analysis would be beneficial going forward.  The income level bins "<=$24.250"" and ">$24,250" could be more informed this way.  Minimum, Maximums, Medians, histograms and value counts would be useful to understand how the data is spread out - what is the lowest income? how many data points are in that income level?  This type of analysis could help guide further income categories.  Additionally, knowing how many data points fall within each new bracket would assist in deciding how much of the data should be split into training and testing.
 
 
 ## Results of Analysis
+### Describe how the ML NN model addresses the question the project is solving: 
+* The model does address our research question: Can income level be predicting using ML and our Kaggle dataset?  However, the model does suffer from underfitting.  The categories are too broad so the machine isn't complex enough to really capture the data.
+* This issue can, potentially, be overcome by using the descriptive statistics discussed above.  
 
 
-## 
+## Recommendations for Future Analysis, 
+  ### and Things the team may have done differently:
+
+* Target and acquire a larger dataset
+* Preprocess for more even-distributed data
+* Apply the learning and Training to more urban areas, in addition to the * Austin-Metro area
+* Apply the data to at-risk children for nutrition
+* Perform and use descriptive statistics
 
 <br>
-
-.
-     
-   ### Deliverable 4: Database
+    
+  ## Deliverable 4: Database
    
   #### Segment - I Database Requirements: 
   * Present a provisional database that stands in for the final database and accomplishes the following:
   * Sample data that mimics the expected final database structure or schema 
   * Draft machine learning module is connected to the provisional database  
 
-  #### Segment - II, III and IV Database Requirements:
+  ### Segment - II, III and IV Database Requirements:
   * stores static data
   * interfaces with the project
   * includes minimum of two tables
@@ -318,13 +335,11 @@ Segment - I:
 ![data_pipeline.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/data_pipeline.png)
 
 
-
-
 .
 
 <br>
 
-### Deliverable 5: Dashboard
+## Deliverable 5: Dashboard
 
 **[Dashboard: Link for Public Tableau](https://public.tableau.com/views/Food_Deserts_Austin_Metro_Area/Food_Deserts_Austin_Metro_Area?:language=en&:display_count=y&:origin=viz_share_link)**
 
@@ -393,7 +408,7 @@ Example of Dashboard 2:
 
 Example of hover functions shown below:
 
-  ![hover_func1](images/hover_func_1.png)
+  ![hover_func1](images/Austin_counties_FD.png)
 
   ![hover_func2](images/pop_county_food_d.png)
 
