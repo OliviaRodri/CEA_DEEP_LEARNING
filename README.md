@@ -345,10 +345,10 @@ Descriptive statistcal analysis would be beneficial going forward.  The income l
 #### Segment - II Requirements:
 
 Dashboard tools: 
-- AWS
-- Tableau
+- Tableau Public
 - Jupyter Notebook
 - Visual Studio Code
+- Pandas
 
 Dashboard Storyboard:
 
