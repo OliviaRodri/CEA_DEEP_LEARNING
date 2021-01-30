@@ -271,21 +271,20 @@ Segment - I:
 - The accuracy score from the training set is relatively high, and with low loss. The model's weights are used with the test data model, and with a very similar value for accuracy as a result.
 
 **Confusion Matrix**
-
-# STEVE - Description to write ...
-
+*Analysis*
  
 | **Segment - IV** | **NN Deep Learning Model** |
 | :--- | :--- |
-| **Training** | **on full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
-| **Testing** | **on the Austin-Metro only data** <br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) <br> |
+| **Training** | **Full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
+The model's overall accuracy is 96%.  This is also reflected in the Confusion Matrix.  Of the 18,216 data points in the training partition (roughly 25% of the total), 17,497 were "true negatives."  This means that the training model predicted 17497 points would be "Above Poverty Level" and those were true predictions.  While 719 were predicted to be "Above Poverty Level" and they were falsely labeled with those 719 actually being "Below Poverty Level."  This is a Type-1 (False Positive) Error.
 
+| **Testing** | **Austin-Metro only data** <br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) <br> |
+Similar to the training model, the model's overall accuracy is 94%.  This is also reflected in the Confusion Matrix.  Of the 88 data points in the testing partition (roughly 25% of the total), 85 were "true negatives."  This means that the training model predicted 85 points would be "Above Poverty Level" and those were true predictions.  While 3 were predicted to be "Above Poverty Level" and they were falsely labeled with those 719 actually being "Below Poverty Level."  Again, this is a Type-1 (False Positive) Error.
 
 <br>
 
 ## Statistical Analysis 
 ### If statistical analysis is not included as part of the analysis, describe how it would be included in the next future phases of the project:
-# STEVE - Description to write ...
 
 .
 
