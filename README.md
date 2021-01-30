@@ -63,12 +63,12 @@ UTMCC DataViz Module 20 Team Project
 
 | **Segment - I** | **Segment - II** | **Segment - III** |
 | :--- | :--- | :--- |
-| `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` | Data, database and Py Neural Net ML Model: `Food_Deserts_NN_Segment3_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Prep for Tableau Vizualizations: `tableau_data_explore_OR.ipynb` |
+| `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` | Data, database and Py Neural Net ML Model: `Food_Deserts_NN_Segment3_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Prep for Tableau Vizualizations: `tableau_data_explore_OR.ipynb`|
 
 
 | **Segment - IV** |
 | :--- |
-| Data preprocessing, database connection,  and Python Neural Net ML Model: `Food_Deserts_NN_Segment4_Final.ipynb`<br>Python Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Preprocessing for Tableau Visualizations: `tableau_data_explore_OR.ipynb` | 
+| Data preprocessing, database connection,  and Python Neural Net ML Model: `Food_Deserts_NN_Segment4_Final.ipynb`<br>Python Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Preprocessing for Tableau Visualizations: `tableau_data_explore_OR.ipynb`<br>Checkpoints: `trained_food_desert_Austin.h5` | 
 
 
 - - - 
