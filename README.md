@@ -63,12 +63,12 @@ UTMCC DataViz Module 20 Team Project
 
 | **Segment - I** | **Segment - II** | **Segment - III** |
 | :--- | :--- | :--- |
-| `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` | Data, database and Py Neural Net ML Model: `Food_Deserts_NN_Segment3_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Prep for Tableau Vizualizations: `tableau_data_explore_OR.ipynb` |
+| `Food_Deserts_Module20.ipynb` | Data & db: `food_deserts_colab1.ipynb`<br>Py Neural Net ML Model: `Food_Deserts_Segment2_NN_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>PostgreSQL AWS RDS: `Module20_food_deserts.sql` | Data, database and Py Neural Net ML Model: `Food_Deserts_NN_Segment3_v1.ipynb`<br>Py Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Prep for Tableau Vizualizations: `tableau_data_explore_OR.ipynb`|
 
 
 | **Segment - IV** |
 | :--- |
-| Data preprocessing, database connection,  and Python Neural Net ML Model: `Food_Deserts_NN_Segment4_Final.ipynb`<br>Python Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Preprocessing for Tableau Visualizations: `tableau_data_explore_OR.ipynb` | 
+| Data preprocessing, database connection,  and Python Neural Net ML Model: `Food_Deserts_NN_Segment4_Final.ipynb`<br>Python Supervised ML Model: `Food_Deserts_Segment2_SupervisedModels_v1.ipynb`<br>AWS S3 bucket: `dataviz20-bucket` <br>PostgreSQL AWS RDS: `Module20_food_deserts.sql`<br>Data Preprocessing for Tableau Visualizations: `tableau_data_explore_OR.ipynb`<br>Checkpoints: `trained_food_desert_Austin.h5` | 
 
 
 - - - 
@@ -275,26 +275,25 @@ Segment - I:
  
 | **Segment - IV** | **NN Deep Learning Model** |
 | :--- | :--- |
-| **Training** | **Full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) |
-The model's overall accuracy is 96%.  This is also reflected in the Confusion Matrix.  Of the 18,216 data points in the training partition (roughly 25% of the total), 17,497 were "true negatives."  This means that the training model predicted 17497 points would be "Above Poverty Level" and those were true predictions.  While 719 were predicted to be "Above Poverty Level" and they were falsely labeled with those 719 actually being "Below Poverty Level."  This is a Type-1 (False Positive) Error.
-
-| **Testing** | **Austin-Metro only data** <br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) <br> |
-Similar to the training model, the model's overall accuracy is 94%.  This is also reflected in the Confusion Matrix.  Of the 88 data points in the testing partition (roughly 25% of the total), 85 were "true negatives."  This means that the training model predicted 85 points would be "Above Poverty Level" and those were true predictions.  While 3 were predicted to be "Above Poverty Level" and they were falsely labeled with those 719 actually being "Below Poverty Level."  Again, this is a Type-1 (False Positive) Error.
+| **Training** | **Full U.S. Census dataset**<br>Accuracy:<br>![NNML_FINAL_training_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_accuracy.png)<br>Confusion Matrix:<br>![NNML_FINAL_training_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_training_confusion.png) | 
+ | ... | The model's overall accuracy is 96%.<br>  This is also reflected in the Confusion Matrix.  Of the 18,216 data points in the training partition (roughly 25% of the total), 17,497 were "true negatives."  This means that the training model predicted 17497 points would be "Above Poverty Level" and those were true predictions.  While 719 were predicted to be "Above Poverty Level" and they were falsely labeled with those 719 actually being "Below Poverty Level."  This is a Type-1 (False Positive) Error. |
+| **Testing** | **Austin-Metro only data**<br>Accuracy: <br>![NNML_FINAL_test_accuracy.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_accuracy.png)<br>Confusion Matrix: <br>![NNML_FINAL_test_confusion.png](https://github.com/OliviaRodri/CEA_DEEP_LEARNING/blob/main/images/NNML_FINAL_test_confusion.png) |
+| ... | Similar to the training model, the model's overall accuracy is 94%.<br>  This is also reflected in the Confusion Matrix.  Of the 88 data points in the testing partition (roughly 25% of the total), 85 were "true negatives."  This means that the training model predicted 85 points would be "Above Poverty Level" and those were true predictions.  While 3 were predicted to be "Above Poverty Level" and they were falsely labeled with those 719 actually being "Below Poverty Level."  Again, this is a Type-1 (False Positive) Error. |
 
 <br>
 
-## Statistical Analysis 
-### If statistical analysis is not included as part of the analysis, describe how it would be included in the next future phases of the project:
+### Statistical Analysis 
+#### If statistical analysis is not included as part of the analysis, describe how it would be included in the next future phases of the project:
 Descriptive statistcal analysis would be beneficial going forward.  The income level bins "<=$24.250"" and ">$24,250" could be more informed this way.  Minimum, Maximums, Medians, histograms and value counts would be useful to understand how the data is spread out - what is the lowest income? how many data points are in that income level?  This type of analysis could help guide further income categories.  Additionally, knowing how many data points fall within each new bracket would assist in deciding how much of the data should be split into training and testing.
 
 
-## Results of Analysis
+### Results of Analysis
 ### Describe how the ML NN model addresses the question the project is solving: 
 * The model does address our research question: Can income level be predicting using ML and our Kaggle dataset?  However, the model does suffer from underfitting.  The categories are too broad so the machine isn't complex enough to really capture the data.
 * This issue can, potentially, be overcome by using the descriptive statistics discussed above.  
 
 
-## Recommendations for Future Analysis, 
+### Recommendations for Future Analysis, 
   ### and Things the team may have done differently:
 
 * Target and acquire a larger dataset
@@ -346,10 +345,10 @@ Descriptive statistcal analysis would be beneficial going forward.  The income l
 #### Segment - II Requirements:
 
 Dashboard tools: 
-- AWS
-- Tableau
+- Tableau Public
 - Jupyter Notebook
 - Visual Studio Code
+- Pandas
 
 Dashboard Storyboard:
 
@@ -398,9 +397,12 @@ Preprocess data for Tableau Dashboards & Storyboard:
 
   ![tab_preprocess](images/preprocess_data_tableau_.png)
 
+
 Example of Dashboard 1:
 
   ![dash_board](images/Food_Desert_Dash.png)
+
+Segment IV:
 
 Example of Dashboard 2:
 
